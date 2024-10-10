@@ -1,4 +1,4 @@
-﻿// Listing 2.7 Rendering a view in the HomeController.cs file in the Controllers folder
+﻿// Listing 2.9 Using a view model in the HomeController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,7 +8,9 @@ namespace FirstProject.Controllers
     {
         public ViewResult Index()
         {
-            return View("MyView");
+            int hour = DateTime.Now.Hour;
+            string viewModel = hour < 12 ? "Good Morning" : "Good Afternoon";
+            return View("MyView", viewModel);
         }
     }
 }
