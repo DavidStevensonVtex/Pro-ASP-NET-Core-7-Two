@@ -1,0 +1,21 @@
+@* Listing 3.4 Adding a view in the Index.cshtml file in the Views/Home folder *@
+
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<title>Party!</title>
+	</head>
+	<body>
+		<div>
+			<dov>
+				We're going to have an exciting party.<br />
+				(To do: sell it better. Add pictures or something.)
+			</dov>
+		</div>
+	</body>
+</html>
