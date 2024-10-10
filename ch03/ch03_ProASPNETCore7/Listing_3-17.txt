@@ -1,4 +1,4 @@
-﻿// Listing 3.17 Applying validation in the GuestResponse.cs file in the Models folder
+// Listing 3.17 Applying validation in the GuestResponse.cs file in the Models folder
 
 using System.ComponentModel.DataAnnotations;
 
