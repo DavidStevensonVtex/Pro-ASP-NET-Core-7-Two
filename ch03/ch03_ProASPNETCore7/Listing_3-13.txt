@@ -22,7 +22,7 @@ namespace PartyInvites.Controllers
 		public ViewResult RsvpForm(GuestResponse guestResponse)
 		{
 			Repository.AddResponse(guestResponse);
-			return View();
+			return View("Thanks", guestResponse);
 		}
 	}
 }
