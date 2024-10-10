@@ -13,7 +13,7 @@
     background-colr: #fee ;
 }
 
-validation-summary-errors {
+.validation-summary-errors {
     font-weight: bold ;
     color: #f00 ;
 }
