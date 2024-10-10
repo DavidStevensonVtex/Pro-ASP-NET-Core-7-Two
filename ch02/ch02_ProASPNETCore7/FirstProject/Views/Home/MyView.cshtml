@@ -1,4 +1,5 @@
-﻿@* Listing 2.8 The contents of the MyView.cshtml file in the Views/Home folder *@
+﻿@* Listing 2.10 Using a view model in the MyView.cshtml file in the Views/Home folder *@
+@model string
 
 @{
 	Layout = null;
@@ -11,7 +12,7 @@
 	</head>
 	<body>
 		<div>
-			Hello World (from the view)
+			@Model World (from the view)
 		</div>
 	</body>
 </html>
