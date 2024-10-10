@@ -1,0 +1,23 @@
+﻿/* Listing 3.20 The contents of the styles.css file in the wwwrooot/css folder */
+
+.field-validaiton-error {
+    color: #f00 ;
+}
+
+.field-validation-valid {
+    display: none ;
+}
+
+.input-validation-error {
+    border: 1px solid #f00 ;
+    background-colr: #fee ;
+}
+
+validation-summary-errors {
+    font-weight: bold ;
+    color: #f00 ;
+}
+
+.validation-summary-valid {
+    display: none ;
+}
