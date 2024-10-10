@@ -1,4 +1,4 @@
-﻿// Listing 3.18 Checking for errors in the HomeController.cs file in the Controllers folder
+// Listing 3.18 Checking for errors in the HomeController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 using PartyInvites.Models;
