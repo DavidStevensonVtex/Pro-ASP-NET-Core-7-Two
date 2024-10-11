@@ -1,4 +1,4 @@
-﻿// Listing 5.25 Using collection initializer syntax in the HomeController.cs file in the Controllers folder
+// Listing 5.25 Using collection initializer syntax in the HomeController.cs file in the Controllers folder
 
 namespace LanguageFeatures.Controllers
 {
