@@ -12,7 +12,7 @@ namespace LanguageFeatures.Models
 			Product kayak = new Product { Name = "Kayak", Price = 275M };
 			Product lifejacket = new Product { Name = "Lifejacket", Price = 48.95M };
 
-			return new Product[] { kayak, lifejacket };
+			return new Product[] { kayak, lifejacket, null };
 		}
 	}
 }
