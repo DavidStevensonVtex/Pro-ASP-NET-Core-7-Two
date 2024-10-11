@@ -1,4 +1,4 @@
-﻿// Listing 5.15 Changing Type in the HomeController.cs file in the Controllers folder
+// Listing 5.15 Changing Type in the HomeController.cs file in the Controllers folder
 
 //using LanguageFeatures.Models;
 //using Microsoft.AspNetCore.Mvc;
