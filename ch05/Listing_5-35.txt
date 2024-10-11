@@ -1,4 +1,4 @@
-﻿// Listing 5.35 A filtering extension method in the MyExtensionMethods.cs file in the Models folder
+// Listing 5.35 A filtering extension method in the MyExtensionMethods.cs file in the Models folder
 
 namespace LanguageFeatures.Models
 {
