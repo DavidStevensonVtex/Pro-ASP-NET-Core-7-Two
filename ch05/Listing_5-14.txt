@@ -1,4 +1,4 @@
-﻿// Listing 5.14 Using a nullable type in the Product.cs file in the Models folder
+// Listing 5.14 Using a nullable type in the Product.cs file in the Models folder
 
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Net;
