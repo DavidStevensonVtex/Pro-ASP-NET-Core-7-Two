@@ -1,4 +1,4 @@
-﻿// Listing 5.23 A collection initializer in the HomeController.cs file in the Controllers folder
+// Listing 5.23 A collection initializer in the HomeController.cs file in the Controllers folder
 
 namespace LanguageFeatures.Controllers
 {
