@@ -1,4 +1,4 @@
-﻿// Listing 5.33 Updating an extension the MyExtensionMethods.cs file in the Models folder
+// Listing 5.33 Updating an extension the MyExtensionMethods.cs file in the Models folder
 
 namespace LanguageFeatures.Models
 {
