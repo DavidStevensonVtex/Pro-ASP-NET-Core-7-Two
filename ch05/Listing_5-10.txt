@@ -1,4 +1,4 @@
-﻿// Listing 5.10 Removing using statements in the HomeController.cs file in the Controllers folder
+// Listing 5.10 Removing using statements in the HomeController.cs file in the Controllers folder
 
 //using LanguageFeatures.Models;
 //using Microsoft.AspNetCore.Mvc;
