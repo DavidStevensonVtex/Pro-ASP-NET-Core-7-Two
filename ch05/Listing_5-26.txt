@@ -1,4 +1,4 @@
-﻿// Listing 5.26 Using a target-typed new expression syntax in the HomeController.cs file in the Controllers folder
+// Listing 5.26 Using a target-typed new expression syntax in the HomeController.cs file in the Controllers folder
 
 namespace LanguageFeatures.Controllers
 {
