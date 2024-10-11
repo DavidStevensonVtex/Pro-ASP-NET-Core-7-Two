@@ -1,4 +1,4 @@
-﻿// Listing 5.11 Using the required keyword in the Product.cs file in the Models folder
+// Listing 5.11 Using the required keyword in the Product.cs file in the Models folder
 
 namespace LanguageFeatures.Models
 {
