@@ -1,4 +1,5 @@
-﻿<!--Listing 4.19 Applying Bootstrap classes in the demo.html file in the wwwroot folder-->
+
+<!--Listing 4.19 Applying Bootstrap classes in the demo.html file in the wwwroot folder-->
 
 <!DOCTYPE html>
 <html>

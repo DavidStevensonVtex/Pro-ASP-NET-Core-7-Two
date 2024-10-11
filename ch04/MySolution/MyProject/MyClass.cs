@@ -6,3 +6,5 @@ namespace MyProject.MyNamespace
 	{
 	}
 }
+
+// dotnet watch ⌚ New file: .\MyClass.cs. Rebuilding the application.
