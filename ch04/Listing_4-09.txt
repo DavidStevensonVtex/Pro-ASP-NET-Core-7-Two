@@ -1,4 +1,4 @@
-﻿<!--Listing 4.9 Changing the message in the demo.html file in the wwwroot folder-->
+<!--Listing 4.9 Changing the message in the demo.html file in the wwwroot folder-->
 
 <!DOCTYPE html>
 <html>
