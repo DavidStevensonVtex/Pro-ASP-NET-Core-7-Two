@@ -1,4 +1,4 @@
-﻿// Listing 5.19 Using the null-forgiving operator in the HomeController.cs file in the Controllers folder
+// Listing 5.19 Using the null-forgiving operator in the HomeController.cs file in the Controllers folder
 
 namespace LanguageFeatures.Controllers
 {
