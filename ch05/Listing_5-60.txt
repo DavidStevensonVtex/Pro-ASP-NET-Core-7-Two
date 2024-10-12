@@ -1,4 +1,4 @@
-﻿// Listing 5.60 Hard-coding a name in the HomeController.cs file in the Controllers folder
+// Listing 5.60 Hard-coding a name in the HomeController.cs file in the Controllers folder
 
 namespace LanguageFeatures.Controllers
 {
