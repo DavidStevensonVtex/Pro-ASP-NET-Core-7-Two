@@ -1,4 +1,4 @@
-﻿// Listing 5.51 Adding a feature in the IProductSelection.cs file in the Models folder
+// Listing 5.51 Adding a feature in the IProductSelection.cs file in the Models folder
 
 namespace LanguageFeatures.Models
 {
