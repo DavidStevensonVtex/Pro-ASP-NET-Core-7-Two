@@ -1,7 +1,5 @@
 ﻿// Listing 6.12 Correcting a test in the PRoductTests.cs file in the SimpleApp.Tests folder
 
-using SimpleApp.Models;
-
 namespace SimpleApp.Tests
 {
     public class ProductTests
