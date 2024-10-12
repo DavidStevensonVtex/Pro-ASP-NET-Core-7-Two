@@ -1,4 +1,4 @@
-﻿// Listing 5.39 Creating a general filter method in the MyExtensionMethods.cs file in the Models folder
+// Listing 5.39 Creating a general filter method in the MyExtensionMethods.cs file in the Models folder
 
 namespace LanguageFeatures.Models
 {
