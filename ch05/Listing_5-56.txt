@@ -1,4 +1,4 @@
-﻿// Listing 5.56 Adding a method in the MyAsyncMethods.cs file in the Models folder
+// Listing 5.56 Adding a method in the MyAsyncMethods.cs file in the Models folder
 
 namespace LanguageFeatures.Models
 {
