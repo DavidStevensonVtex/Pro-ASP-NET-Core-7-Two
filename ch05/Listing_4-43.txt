@@ -1,4 +1,4 @@
-﻿// Listing 5.43 A lambda action method in the HomeController.cs file in the Controllers folder
+// Listing 5.43 A lambda action method in the HomeController.cs file in the Controllers folder
 
 namespace LanguageFeatures.Controllers
 {
