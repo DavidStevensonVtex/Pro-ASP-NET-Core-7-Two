@@ -1,4 +1,4 @@
-﻿// Listing 5.58 Using an asyncrounous executable in the MyAsyncMethods.cs file in the Models folder
+// Listing 5.58 Using an asyncrounous executable in the MyAsyncMethods.cs file in the Models folder
 
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -34,3 +34,4 @@ namespace LanguageFeatures.Models
     }
     }
 }
+
