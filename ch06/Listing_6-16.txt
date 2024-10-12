@@ -1,4 +1,4 @@
-﻿// Listing 6.16 A data source in the Product.cs file in the Models folder.
+// Listing 6.16 A data source in the Product.cs file in the Models folder.
 
 namespace SimpleApp.Models
 {
