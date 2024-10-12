@@ -1,4 +1,4 @@
-﻿// Listing 5.37 Adding a filter method in the MyExtensionMethods.cs file in the Models folder
+// Listing 5.37 Adding a filter method in the MyExtensionMethods.cs file in the Models folder
 
 namespace LanguageFeatures.Models
 {
