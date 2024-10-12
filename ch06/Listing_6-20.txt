@@ -1,4 +1,4 @@
-﻿// Listing 6.20 Creating a mock object in the HomeControllerTests.cs file in the SimpleApp.Tests folder
+// Listing 6.20 Creating a mock object in the HomeControllerTests.cs file in the SimpleApp.Tests folder
 
 namespace SimpleApp.Tests
 {
