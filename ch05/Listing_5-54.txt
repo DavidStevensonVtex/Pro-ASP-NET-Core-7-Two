@@ -7,7 +7,7 @@ namespace LanguageFeatures.Models
         public async static Task<long?> GetPageLength()
         {
             HttpClient client = new HttpClient();
-            var httpMessage = await client.GetAsync("http//manning.com");
+            var httpMessage = await client.GetAsync("http://manning.com");
             return httpMessage.Content.Headers.ContentLength;
         }
     }

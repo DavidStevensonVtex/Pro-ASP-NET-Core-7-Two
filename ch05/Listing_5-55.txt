@@ -1,4 +1,4 @@
-﻿// Listing 5.55 An asynchronous action in the HomeController.cs file in the Controllers folder
+// Listing 5.55 An asynchronous action in the HomeController.cs file in the Controllers folder
 
 namespace LanguageFeatures.Controllers
 {
