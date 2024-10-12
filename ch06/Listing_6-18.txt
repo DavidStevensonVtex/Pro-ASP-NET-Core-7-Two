@@ -1,4 +1,4 @@
-﻿// Listing 6.18 Isolating the controller in the HomeControllerTests.cs file in the SimpleApp.Tests folder
+// Listing 6.18 Isolating the controller in the HomeControllerTests.cs file in the SimpleApp.Tests folder
 
 namespace SimpleApp.Tests
 {
