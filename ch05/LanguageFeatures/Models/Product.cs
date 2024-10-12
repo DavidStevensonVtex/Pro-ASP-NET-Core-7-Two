@@ -15,9 +15,7 @@ namespace LanguageFeatures.Models
 		{
 			Product kayak = new Product { Name = "Kayak", Price = 275M };
 			Product lifejacket = new Product {
-				// Required member 'Product.Name' must be set in the object initializer or attribute constructor.
-
-			//Name = "Lifejacket", 
+				Name = "Lifejacket",
 				Price = 48.95M
 			};
 
