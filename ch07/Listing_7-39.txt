@@ -1,4 +1,4 @@
-﻿// Listing 7.39 Adding classes to elements in the PageLinkTagHelper.cs file in the SportsStore.Infrastructure folder
+// Listing 7.39 Adding classes to elements in the PageLinkTagHelper.cs file in the SportsStore.Infrastructure folder
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
