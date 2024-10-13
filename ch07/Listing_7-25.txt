@@ -1,4 +1,4 @@
-﻿ @* Listing 7.25 Updating the product data the Index.cshtml file in the SportsStore/Home folder *@
+ @* Listing 7.25 Updating the product data the Index.cshtml file in the SportsStore/Home folder *@
 
 @model IQueryable<Product>
 

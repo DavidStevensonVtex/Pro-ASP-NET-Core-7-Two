@@ -11,6 +11,6 @@ namespace SportsStore.Models
             context = ctx;
         }
 
-        public IQueryable<Product> Products => context.Products;
+        public override IQueryable<Product> Products => context.Products;
     }
 }
