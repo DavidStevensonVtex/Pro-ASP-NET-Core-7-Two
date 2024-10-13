@@ -1,4 +1,4 @@
-﻿ @* Listing 7.38 Styling content in the Index.cshtml file in the SportsStore/Home folder *@
+ @* Listing 7.38 Styling content in the Index.cshtml file in the SportsStore/Home folder *@
 
 @model ProductsListViewModel
 
