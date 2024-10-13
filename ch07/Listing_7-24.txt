@@ -1,4 +1,4 @@
-﻿// Listing 7.24 Preparing the controller the HomeController.cs file in the SportsStore/Controllers folder
+// Listing 7.24 Preparing the controller the HomeController.cs file in the SportsStore/Controllers folder
 
 namespace SportsStore.Controllers
 {
