@@ -1,4 +1,4 @@
-﻿// Listing 7.31 Updating the action method in the HomeController.cs file in the SportsStore/Controllers folder
+// Listing 7.31 Updating the action method in the HomeController.cs file in the SportsStore/Controllers folder
 
 namespace SportsStore.Controllers
 {
