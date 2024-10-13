@@ -1,0 +1,4 @@
+Listing 7.6 The contents of the _ViewImports.cshtml file in the SportsStore/Views folder
+
+using SportsStore.Models ;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelopers
