@@ -1,0 +1,4 @@
+@{
+    // Listing 7.7 The contents of the _ViewStart.cshtml file in the SportsStore/Views folder
+    Layout = "_Layout";
+}
