@@ -1,4 +1,4 @@
-﻿ @* Listing 7.32 Updating the Index.cshtml file in the SportsStore/Home folder *@
+ @* Listing 7.32 Updating the Index.cshtml file in the SportsStore/Home folder *@
 
 @model ProductsListViewModel
 
