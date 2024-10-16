@@ -16,7 +16,11 @@ namespace Platform
 			if (context.Request.Method == HttpMethods.Get &&
 				context.Request.Query["custom"] == "true")
 			{
-				context.Response.ContentType = "text/plain";
+				if (! context.Response.HasStarted)
+				{
+					context.Response.ContentType = "text/plain";
+				}
+				
 				await context.Response.WriteAsync("Class Middleware \n");
 			}
 			await next(context);
