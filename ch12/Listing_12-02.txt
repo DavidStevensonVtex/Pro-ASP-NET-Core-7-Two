@@ -1,4 +1,6 @@
-﻿{
+Listing 12.2 Setting ports in the launchSettings.json file in the Properties folder
+
+{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
