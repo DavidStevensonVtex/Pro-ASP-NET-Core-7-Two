@@ -1,4 +1,4 @@
-﻿// Listing 12.13 Adding terminal support the Middleware.cs file in the Platform folder
+// Listing 12.13 Adding terminal support the Middleware.cs file in the Platform folder
 
 namespace Platform
 {
