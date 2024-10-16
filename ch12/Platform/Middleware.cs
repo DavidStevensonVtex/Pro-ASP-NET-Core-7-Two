@@ -17,7 +17,7 @@ namespace Platform
 				context.Request.Query["custom"] == "true")
 			{
 				context.Response.ContentType = "text/plain";
-				await context.Response.WriteAsync("Custom Middleware \n");
+				await context.Response.WriteAsync("Class Middleware \n");
 			}
 			await next(context);
 		}
