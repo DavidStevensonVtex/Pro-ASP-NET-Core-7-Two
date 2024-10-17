@@ -1,4 +1,4 @@
-﻿// Listing 13.9 Depending on the route data in the Capital.cs file in the Platform folder
+// Listing 13.9 Depending on the route data in the Capital.cs file in the Platform folder
 
 namespace Platform
 {
