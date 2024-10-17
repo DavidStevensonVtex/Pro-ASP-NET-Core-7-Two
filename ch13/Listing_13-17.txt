@@ -1,4 +1,4 @@
-﻿// Listing 13.17 Using a default value in Population.cs file in the Platform folder
+// Listing 13.17 Using a default value in Population.cs file in the Platform folder
 
 namespace Platform
 {
