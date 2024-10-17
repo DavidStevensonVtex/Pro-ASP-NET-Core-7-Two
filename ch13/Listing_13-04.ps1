@@ -1,6 +1,6 @@
 # Listing 13.4 Starting the ASP.NET Core Runtime
 
-cd Platform
+Set-Location Platform
 dotnet run
 
 # PS C:\Users\drsgis\drs\Pro-ASP-NET-Core-7-Two\ch13> .\Listing_13-04.ps1
