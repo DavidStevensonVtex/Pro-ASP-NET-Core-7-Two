@@ -34,8 +34,7 @@ namespace Platform
 				}
 				if (pop.HasValue)
 				{
-					await context.Response
-						.WriteAsync("City: {city}, Population: {pop}");
+					await context.Response.WriteAsync($"City: {city}, Population: {pop}");
 					return;
 				}
 			}
