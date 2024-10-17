@@ -1,4 +1,4 @@
-﻿// Listing 13.10 Depending on route data in.cs file in the Platform folder
+// Listing 13.10 Depending on route data in.cs file in the Platform folder
 
 namespace Platform
 {
