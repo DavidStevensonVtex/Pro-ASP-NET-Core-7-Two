@@ -1,4 +1,4 @@
-﻿// Listing 14.18 Revising the endpoint in the WeatherEndpoint.cs file in the Platform folder
+// Listing 14.18 Revising the endpoint in the WeatherEndpoint.cs file in the Platform folder
 
 using Platform.Services;
 
