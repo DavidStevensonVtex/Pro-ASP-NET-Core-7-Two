@@ -1,4 +1,4 @@
-﻿// Listing 14.7 A singleton in the TextResponseFormatter.cs file in the Services folder
+// Listing 14.7 A singleton in the TextResponseFormatter.cs file in the Services folder
 
 namespace Platform.Services
 {
