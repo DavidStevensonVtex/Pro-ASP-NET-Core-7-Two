@@ -11,8 +11,7 @@ builder.Services.Configure<RouteOptions>(opts =>
 
 var app = builder.Build();
 
-// Use app.Run when your middleware never calls next:
-app.Run(async (context) =>
+app.Use(async (context, next) =>
 {
 	Endpoint? end = context.GetEndpoint();
 	if (end != null)
@@ -23,6 +22,7 @@ app.Run(async (context) =>
 	{
 		await context.Response.WriteAsync("No Endpoint Selected \n");
 	}
+	await next();
 });
 
 app.Map("{number:int}", async context =>
