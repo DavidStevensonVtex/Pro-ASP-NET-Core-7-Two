@@ -2,7 +2,7 @@
 
 namespace Platform.Services
 {
-	public class TextResponseFormatter
+	public class TextResponseFormatter : IResponseFormatter
 	{
 		private int responseCounter = 0;
 
