@@ -1,4 +1,4 @@
-﻿// Listing 14.24 Requestingservices in the EndpointExtensions.cs file in the Services folder
+// Listing 14.24 Requestingservices in the EndpointExtensions.cs file in the Services folder
 
 using System.Reflection;
 
