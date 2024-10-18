@@ -7,7 +7,7 @@ namespace Microsoft.AspNetCore.Builder
 	public static class EndpointExtensions
 	{
 		public static void MapEndpoint<T>(this IEndpointRouteBuilder app,
-			string path, string methodName = "Endpint")
+			string path, string methodName = "Endpoint")
 		{
 			MethodInfo? methodInfo = typeof(T).GetMethod(methodName);
 			if (methodInfo?.ReturnType != typeof(Task))
