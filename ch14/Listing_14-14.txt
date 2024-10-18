@@ -1,4 +1,4 @@
-﻿// Listing 14.14 Changing the TypeBroker.cs file in the Services folder
+// Listing 14.14 Changing the TypeBroker.cs file in the Services folder
 
 namespace Platform.Services
 {
