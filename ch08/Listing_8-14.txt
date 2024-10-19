@@ -1,4 +1,4 @@
-﻿@* Listing 8.14 The _ViewImports.cshtml file in the SportsStore/Pages folder *@
+@* Listing 8.14 The _ViewImports.cshtml file in the SportsStore/Pages folder *@
 
 @namespace SportsStore.Pages
 @using Microsoft.AspNetCore.Mvc.RazorPages;
