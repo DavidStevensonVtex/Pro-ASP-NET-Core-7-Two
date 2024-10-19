@@ -3,11 +3,7 @@
 @model IEnumerable<string>
 
 <div class="d-grid gap-2">
-    @{
-        string homeClassValue = "btn " + 
-            (ViewBag.SelectedCategory == null ? "btn-primary" : "btn-outline-secondary");
-    }
-    <a class="@homeClassValue"
+    <a class="btn @(ViewBag.SelectedCategory == null ? "btn-primary" : "btn-outline-secondary")"
        asp-action="Index"
        asp-controller="Home"
        asp-route-category="">
@@ -16,8 +12,7 @@
 
     @foreach (string category in Model ?? Enumerable.Empty<string>())
     {
-        string classValue = "btn " + (category == ViewBag.SelectedCategory ? "btn-primary" : "btn-outline-secondary");
-        <a class="@classValue"
+        <a class="btn @(category == ViewBag.SelectedCategory ? "btn-primary" : "btn-outline-secondary")"
            asp-action="Index"
            asp-controller="Home"
            asp-route-category="@category"
