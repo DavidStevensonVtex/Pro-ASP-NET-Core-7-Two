@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model CartModel
 
 @* Listing 8.24 Handling requests the Cart.cshtml file in the SportsStore/Pages folder *@
