@@ -1,4 +1,4 @@
-﻿// Listing 8.8 Adding categories in the NavigationMenuViewComponent.cs file in the SportsStore/Components folder
+// Listing 8.8 Adding categories in the NavigationMenuViewComponent.cs file in the SportsStore/Components folder
 
 namespace SportsStore.Components
 {
