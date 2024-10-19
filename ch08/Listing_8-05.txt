@@ -1,4 +1,4 @@
-﻿ @* Listing 8.5 Adding an attribute in the Index.cshtml file in the SportsStore/Home folder *@
+ @* Listing 8.5 Adding an attribute in the Index.cshtml file in the SportsStore/Home folder *@
 
 @model ProductsListViewModel
 
