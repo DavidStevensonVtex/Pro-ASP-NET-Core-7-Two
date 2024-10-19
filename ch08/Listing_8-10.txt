@@ -1,4 +1,4 @@
-﻿// Listing 8.10 Passing the selected category in the NavigationMenuViewComponent.cs file in the SportsStore/Components folder
+// Listing 8.10 Passing the selected category in the NavigationMenuViewComponent.cs file in the SportsStore/Components folder
 
 namespace SportsStore.Components
 {
