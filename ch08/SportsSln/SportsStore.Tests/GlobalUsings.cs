@@ -4,4 +4,6 @@ global using SportsStore.Models.ViewModels;
 global using SportsStore.Controllers;
 global using SportsStore.Infrastructure;
 global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.Rendering;
+global using Microsoft.AspNetCore.Routing;
 global using Moq;
