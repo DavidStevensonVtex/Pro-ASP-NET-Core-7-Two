@@ -1,4 +1,4 @@
-﻿@* Listing 8.20 Adding the Buttons to the ProductSummary.cshtml file in the SportsStore/Views/Shared folder *@
+@* Listing 8.20 Adding the Buttons to the ProductSummary.cshtml file in the SportsStore/Views/Shared folder *@
 @model Product
 
 <div class="card card-outline-primary m-1 p-1">
