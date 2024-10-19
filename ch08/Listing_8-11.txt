@@ -1,4 +1,4 @@
-﻿@* Listing 8.11 Highlighting category in the Default.cshtml file in the SportsStore/Views/Shared/Components/NavigationMenu folder *@
+@* Listing 8.11 Highlighting category in the Default.cshtml file in the SportsStore/Views/Shared/Components/NavigationMenu folder *@
 
 @model IEnumerable<string>
 
