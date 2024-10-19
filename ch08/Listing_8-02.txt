@@ -1,4 +1,4 @@
-﻿// Listing 8.2 Supporting categories in the HomeController.cs file in the SportsStore/Controllers folder
+// Listing 8.2 Supporting categories in the HomeController.cs file in the SportsStore/Controllers folder
 
 namespace SportsStore.Controllers
 {
