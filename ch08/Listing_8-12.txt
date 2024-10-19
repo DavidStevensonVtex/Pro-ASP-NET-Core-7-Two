@@ -1,4 +1,4 @@
-﻿// Listing 8.12 Correcting Category Page Counts in the HomeController.cs file in the SportsStore/Controllers folder
+// Listing 8.12 Correcting Category Page Counts in the HomeController.cs file in the SportsStore/Controllers folder
 
 namespace SportsStore.Controllers
 {
