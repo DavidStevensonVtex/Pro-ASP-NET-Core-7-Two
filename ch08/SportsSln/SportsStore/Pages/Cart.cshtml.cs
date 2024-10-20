@@ -1,6 +1,5 @@
 // Listing 8.25 The Cart.cshtml.cs file in the SportsStore/Pages folder
 
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using SportsStore.Infrastructure;
 
@@ -29,7 +28,9 @@ namespace SportsStore.Pages
             Product? product = repository.Products.FirstOrDefault(p => p.ProductID == productId);
             if (product != null)
             {
-                Cart = HttpContext.Session.GetJson<Cart>("cart");
+                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+                Cart.AddItem(product, 1);
+                HttpContext.Session.SetJson("cart", Cart);
             }
             return RedirectToPage(new { returnUrl = returnUrl });
         }
