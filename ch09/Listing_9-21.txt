@@ -1,4 +1,4 @@
-﻿@* Listing 9.21 Adding a validation summary to the Checkout.cshtml file in the SportsStore/Views/Order folder  *@
+@* Listing 9.21 Adding a validation summary to the Checkout.cshtml file in the SportsStore/Views/Order folder  *@
 
 @model Order 
 
