@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model CartModel
 
 @* Listing 9.12 Adding a checkout button in the Cart.cshtml file in the SportsStore/Pages folder *@
