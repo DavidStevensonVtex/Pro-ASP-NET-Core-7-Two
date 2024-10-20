@@ -1,4 +1,4 @@
-﻿// Unit testing: razor pages
+﻿// Unit testing: Updating the unit tests
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -35,7 +35,7 @@ namespace SportsStore.Tests
             mockContext.SetupGet(c => c.Session).Returns(mockSession.Object);
 
             // Action
-            CartModel cartModel = new CartModel(mockRepo.Object)
+            CartModel cartModel = new CartModel(mockRepo.Object, testCart)
             {
                 PageContext = new PageContext(new ActionContext
                 {
@@ -78,7 +78,7 @@ namespace SportsStore.Tests
             mockContext.SetupGet(c => c.Session).Returns(mockSession.Object);
 
             // Action
-            CartModel cartModel = new CartModel(mockRepo.Object)
+            CartModel cartModel = new CartModel(mockRepo.Object, testCart)
             {
                 PageContext = new PageContext(new ActionContext
                 {
