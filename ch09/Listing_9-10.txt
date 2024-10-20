@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 @* Listing 9.10 Adding the cart summary in the _Layout.cshtml file in the SportsStore/Views/Shared folder *@
 <html>
 <head>
