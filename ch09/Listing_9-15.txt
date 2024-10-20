@@ -1,4 +1,4 @@
-﻿// Listing 9.15 Adding a property in the StoreDbContext file in the SportsStore/Models folder
+// Listing 9.15 Adding a property in the StoreDbContext file in the SportsStore/Models folder
 
 using Microsoft.EntityFrameworkCore;
 
