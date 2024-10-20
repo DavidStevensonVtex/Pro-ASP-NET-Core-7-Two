@@ -9,8 +9,8 @@
         <tr>
             <th>Quantity</th>
             <th>Item</th>
-            <th class="text-right">Price</th>
-            <th class="text-right">Subtotal</th>
+            <th class="text-end">Price</th>
+            <th class="text-end">Subtotal</th>
         </tr>
     </thead>
     <tbody>
@@ -19,10 +19,10 @@
             <tr>
                 <td class="text-center">@line.Quantity</td>
                 <td class="text-left">@line.Product.Name</td>
-                <td class="text-right">
+                <td class="text-end">
                     @line.Product.Price.ToString("c")
                 </td>
-                <td class="text-right">
+                <td class="text-end">
                     @((line.Quantity * line.Product.Price).ToString("c"))
                 </td>
             </tr>
@@ -30,8 +30,8 @@
     </tbody>
     <tfoot>
         <tr>
-            <td colspan="3" class="text-right">Total</td>
-            <td class="text-right">
+            <td colspan="3" class="text-end">Total</td>
+            <td class="text-end">
                 @Model.Cart?.ComputeTotalValue().ToString("c")
             </td>
         </tr>
