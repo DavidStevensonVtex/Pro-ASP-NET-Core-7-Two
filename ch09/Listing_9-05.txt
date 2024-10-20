@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model CartModel
 
 @* Listing 9.5 Removing cart items in the Cart.cshtml file in the SportsStore/Pages folder *@
