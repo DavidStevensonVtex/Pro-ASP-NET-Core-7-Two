@@ -1,4 +1,4 @@
-﻿// Listing 9.1 Applying the virtual keyword the Cart.cs file in the SportsStore/Models folder
+// Listing 9.1 Applying the virtual keyword the Cart.cs file in the SportsStore/Models folder
 
 namespace SportsStore.Models
 {
