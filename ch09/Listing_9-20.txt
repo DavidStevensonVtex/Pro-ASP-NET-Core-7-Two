@@ -1,4 +1,4 @@
-﻿// Listing 9.20 Completing the controller in the OrderController.cs file in the SportsStore/Controllers folder
+// Listing 9.20 Completing the controller in the OrderController.cs file in the SportsStore/Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
