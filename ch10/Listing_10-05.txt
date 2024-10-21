@@ -1,5 +1,7 @@
 @* Listing 10.5 The AdminLayout.cshtml file in the SportsStore/Pages/Admin folder *@
 
+@inherits LayoutComponentBase
+
 <div class="bg-info text-white p-2">
     <span class="navbar-brand ml-2">SPORTS STORE Administration</span>
 </div>
