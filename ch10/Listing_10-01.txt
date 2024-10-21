@@ -38,7 +38,7 @@ app.MapControllerRoute("category", "{category}",
 app.MapDefaultControllerRoute();
 app.MapRazorPages();
 app.MapBlazorHub();
-app.MapFallbackToPage("/admin/{*catchall}");
+app.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
 
 SeedData.EnsurePopulated(app);
 
