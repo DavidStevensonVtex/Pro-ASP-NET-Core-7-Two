@@ -19,7 +19,7 @@ app.UseHttpLogging();
 var env = app.Environment;
 app.UseStaticFiles(new StaticFileOptions
 {
-	FileProvider = new PhysicalFileProvider($"{env.ContentRootPath}/wwwroot"),
+	FileProvider = new PhysicalFileProvider($"{env.ContentRootPath}/staticfiles"),
 	RequestPath = "/files"
 });
 
