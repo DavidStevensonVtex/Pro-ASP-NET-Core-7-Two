@@ -1,6 +1,5 @@
 // Listing 14.31 The contents of the TimeResponseFormatter.cs fiel in the Services folder
 
-
 namespace Platform.Services
 {
 	public class TimeResponseFormatter : IResponseFormatter
@@ -14,7 +13,7 @@ namespace Platform.Services
 
 		public async Task Format(HttpContext context, string content)
 		{
-			await context.Response.WriteAsync($"{stamper.TimeStamp}");
+			await context.Response.WriteAsync($"{stamper.TimeStamp} {content}");
 		}
 	}
 }
