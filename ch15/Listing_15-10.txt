@@ -1,4 +1,6 @@
-﻿{
+Listing 15.10 Changing the launchSettings.json file in the Platform/Properties folder
+
+{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
