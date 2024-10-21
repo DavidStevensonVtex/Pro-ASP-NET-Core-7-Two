@@ -1,4 +1,4 @@
-﻿<!--Listing 15.35 Using a client package in the static.html file in the wwwroot folder-->
+<!--Listing 15.35 Using a client package in the static.html file in the wwwroot folder-->
 
 <!DOCTYPE html>
 <html>

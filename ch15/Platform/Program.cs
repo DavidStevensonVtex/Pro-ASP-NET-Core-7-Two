@@ -17,11 +17,13 @@ var app = builder.Build();
 app.UseHttpLogging();
 
 var env = app.Environment;
-app.UseStaticFiles(new StaticFileOptions
-{
-	FileProvider = new PhysicalFileProvider($"{env.ContentRootPath}/staticfiles"),
-	RequestPath = "/files"
-});
+app.UseStaticFiles();
+
+//app.UseStaticFiles(new StaticFileOptions
+//{
+//	FileProvider = new PhysicalFileProvider($"{env.ContentRootPath}/staticfiles"),
+//	RequestPath = "/files"
+//});
 
 app.MapGet("population/{city?}", Population.Endpoint);
 
