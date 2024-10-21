@@ -1,4 +1,4 @@
-﻿// Listing 13.22 Using the LoggerMessage attribute in Population.cs file in the Platform folder
+// Listing 13.22 Using the LoggerMessage attribute in Population.cs file in the Platform folder
 
 namespace Platform
 {
