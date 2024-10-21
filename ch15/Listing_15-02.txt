@@ -3,8 +3,10 @@ Listing 15.2 The contents of the appsettings.Development.json file in the Platfo
 {
   "Logging": {
     "LogLevel": {
-      "Default": "Information",
+      "Default": "Debug",
+      "System": "Information",
       "Microsoft.AspNetCore": "Warning"
     }
   }
 }
+
