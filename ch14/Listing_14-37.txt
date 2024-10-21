@@ -1,4 +1,4 @@
-﻿// Listing 14.37 Overriding the RichOutput property in the HtmlResponseFormatter.cs file in the Services folder
+// Listing 14.37 Overriding the RichOutput property in the HtmlResponseFormatter.cs file in the Services folder
 
 namespace Platform.Services
 {
