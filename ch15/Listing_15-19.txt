@@ -1,4 +1,4 @@
-﻿// Listing 13.19 Generating logging messages in Population.cs file in the Platform folder
+// Listing 13.19 Generating logging messages in Population.cs file in the Platform folder
 
 namespace Platform
 {
