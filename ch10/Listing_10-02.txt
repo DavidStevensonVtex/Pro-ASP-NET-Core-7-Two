@@ -1,0 +1,8 @@
+@* Listing 10.2 The _Imports.razor file in the SportsStore/Pages/Admin folder *@
+
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.EntityFrameworkCore
+@using SportsStore.Models
