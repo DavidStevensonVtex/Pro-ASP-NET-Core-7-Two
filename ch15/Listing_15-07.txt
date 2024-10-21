@@ -1,3 +1,5 @@
+Listing 15.7 Adding configuration data in the appsettings.json file in the Platform folder
+
 {
   "Logging": {
     "LogLevel": {
