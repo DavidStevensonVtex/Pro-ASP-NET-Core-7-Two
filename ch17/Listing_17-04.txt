@@ -1,6 +1,7 @@
 // Listing 17.4 Adding an endpoint in the Program.cs file in the Platform folder
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDistributedMemoryCache();
 
 var app = builder.Build();
 
