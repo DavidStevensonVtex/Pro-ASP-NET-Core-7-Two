@@ -32,10 +32,10 @@ namespace Platform
 					await context.Response.WriteAsync(consentFeature.HasConsent ? 
 						"Consent Granted \n" : "Consent Withdrawn\n");
 				}
-				else
-				{
-					await next(context);
-				}
+			}
+			else
+			{
+				await next(context);
 			}
 		}
 	}
