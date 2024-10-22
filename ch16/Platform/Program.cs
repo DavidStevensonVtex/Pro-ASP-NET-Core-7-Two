@@ -31,6 +31,9 @@ builder.Services.AddRateLimiter(opts =>
 var app = builder.Build();
 
 app.UseHttpsRedirection();
+
+app.UseRateLimiter();
+
 app.UseSession();
 
 app.MapGet("/session", async context =>
