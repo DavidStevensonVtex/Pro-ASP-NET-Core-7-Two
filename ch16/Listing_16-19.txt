@@ -1,4 +1,4 @@
-﻿// Listing 16.19 The contents of the ResponseStrings.cs file in the Platform folder
+// Listing 16.19 The contents of the ResponseStrings.cs file in the Platform folder
 
 namespace Platform
 {
