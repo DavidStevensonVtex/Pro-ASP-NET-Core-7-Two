@@ -1,4 +1,6 @@
-﻿{
+Listing 16.9 Changes in the launchSettings.json file in the Platform/Properties folder
+
+{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
