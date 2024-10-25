@@ -22,6 +22,7 @@ namespace SportsStore.Models
         public void DeleteProduct(Product p)
         {
             context.Remove(p);
+            context.SaveChanges();
         }
 
         public void SaveProduct(Product p)
