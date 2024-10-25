@@ -1,4 +1,4 @@
-﻿// Listing 10.13 Implementing methods in the EFStoreRepository.cs file in the SportsStore/Models folder
+// Listing 10.13 Implementing methods in the EFStoreRepository.cs file in the SportsStore/Models folder
 
 namespace SportsStore.Models
 {
