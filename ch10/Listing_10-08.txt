@@ -1,4 +1,4 @@
-﻿// Listing 10.8 Adding a property in the Order.cs file in the SportsStore/Models folder
+// Listing 10.8 Adding a property in the Order.cs file in the SportsStore/Models folder
 
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.ComponentModel.DataAnnotations;
