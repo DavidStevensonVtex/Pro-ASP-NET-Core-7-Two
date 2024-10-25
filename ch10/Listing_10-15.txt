@@ -1,4 +1,4 @@
-﻿@* Listing 10.15 The Products.razor file in the SportsStore/Pages/Admin folder *@
+@* Listing 10.15 The Products.razor file in the SportsStore/Pages/Admin folder *@
 
 @page "/admin/products"
 @page "/admin"
