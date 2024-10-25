@@ -1,4 +1,4 @@
-﻿@* Listing 10.11 The revised contents of te Orders.razor file in the SportsStore/Pages/Admin folder *@
+@* Listing 10.11 The revised contents of te Orders.razor file in the SportsStore/Pages/Admin folder *@
 
 @page "/admin/orders"
 @inherits OwningComponentBase<IOrderRepository>
