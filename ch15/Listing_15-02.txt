@@ -1,0 +1,12 @@
+Listing 15.2 The contents of the appsettings.Development.json file in the Platform folder
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
+

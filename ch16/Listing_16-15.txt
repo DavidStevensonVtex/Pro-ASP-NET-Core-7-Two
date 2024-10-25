@@ -1,0 +1,12 @@
+// Listing 16.15 Adding Middleware that throws exception in the Program.cs file in the Platform folder
+
+var builder = WebApplication.CreateBuilder(args);
+
+var app = builder.Build();
+
+app.Run(context =>
+{
+	throw new Exception("Something has gone wrong");
+});
+
+app.Run();

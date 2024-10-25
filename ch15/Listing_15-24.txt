@@ -1,0 +1,13 @@
+Listing 15.24 Configuring the appsettings.Development.json file in the Platform folder
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information",
+      "Microsoft.AspNetCore": "Warning",
+      "Microsoft.AspNetCore.Routing": "Debug"
+    }
+  }
+}

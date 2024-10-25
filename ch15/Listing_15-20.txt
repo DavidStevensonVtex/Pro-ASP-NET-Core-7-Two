@@ -1,0 +1,15 @@
+// Listing 15.20 Logging in the Program.cs file in the Platform folder
+
+using Platform;
+
+var builder = WebApplication.CreateBuilder(args);
+
+var app = builder.Build();
+
+app.Logger.LogDebug("Pipleline configuration starting");
+
+app.MapGet("population/{city?}", Population.Endpoint);
+
+app.Logger.LogDebug("Pipleline configuration complete");
+
+app.Run();

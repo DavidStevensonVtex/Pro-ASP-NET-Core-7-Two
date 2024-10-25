@@ -1,0 +1,13 @@
+<!--Listing 15.35 Using a client package in the static.html file in the wwwroot folder-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Static Content</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h3 class="p-2 bg-primary text-white">This is static content</h3>
+</body>
+</html>

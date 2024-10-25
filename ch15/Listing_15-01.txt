@@ -1,0 +1,12 @@
+// Listing 15.1 The contents of the Program.cs file in the Platform folder
+
+var builder = WebApplication.CreateBuilder(args);
+
+var app = builder.Build();
+
+app.MapGet("/", async context =>
+{
+	await context.Response.WriteAsync("Hello World!");
+});
+
+app.Run();

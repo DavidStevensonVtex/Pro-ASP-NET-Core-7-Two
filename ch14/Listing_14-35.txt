@@ -1,0 +1,13 @@
+Listing 14.35 A setting in the appsettings.Development.json file in the Platform folder
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "services": {
+    "IResponseFormatter":  "Platform.Services.HtmlResponseFormatter"
+  }
+}

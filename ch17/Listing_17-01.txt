@@ -1,0 +1,12 @@
+// Listing 17.1 Replacing the contents in the Program.cs file in the Platform folder
+
+var builder = WebApplication.CreateBuilder(args);
+
+var app = builder.Build();
+
+app.MapGet("/", async context =>
+{
+	await context.Response.WriteAsync("Hello World!");
+});
+
+app.Run();

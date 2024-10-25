@@ -1,0 +1,20 @@
+// Listing 16.7 Configuring sessions in the Program.cs file in the Platform folder
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession(opts =>
+{
+	opts.IdleTimeout = TimeSpan.FromSeconds(1);
+	opts.Cookie.IsEssential = true;
+});
+
+var app = builder.Build();
+
+app.UseSession();
+
+app.MapFallback(async context =>
+	await context.Response.WriteAsync("Hello world!"));
+
+app.Run();

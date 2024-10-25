@@ -1,0 +1,36 @@
+// Listing 15.12 Accessing the environment in the Program.cs file in the Platform folder
+
+using Platform;
+
+var builder = WebApplication.CreateBuilder(args);
+
+var servicesConfig = builder.Configuration;
+builder.Services.Configure<MessageOptions>(
+	servicesConfig.GetSection("Location"));
+
+var servicesEnv = builder.Environment;
+// - use environment to set up services
+
+var app = builder.Build();
+// - use configuration settings to t set up pipeline
+
+var pipelineConfig = app.Configuration;
+// - use environment to set up pipeline
+
+var pipelineEnv = app.Environment;
+
+app.UseMiddleware<LocationMiddleware>();
+
+app.MapGet("config", async (HttpContext context, IConfiguration config, IWebHostEnvironment env) =>
+{
+	string? defaultDebug = config["Logging:LogLevel:Default"];
+	await context.Response.WriteAsync($"The config setting is: {defaultDebug}");
+	await context.Response.WriteAsync($"\nThe env setting is: {env.EnvironmentName}");
+});
+
+app.MapGet("/", async context =>
+{
+	await context.Response.WriteAsync("Hello World!");
+});
+
+app.Run();
