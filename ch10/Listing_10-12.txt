@@ -1,4 +1,4 @@
-﻿// Listing 10.12 Adding methods in the IStoreRepository.cs file in the SportsStore/Models folder
+// Listing 10.12 Adding methods in the IStoreRepository.cs file in the SportsStore/Models folder
 
 namespace SportsStore.Models
 {
