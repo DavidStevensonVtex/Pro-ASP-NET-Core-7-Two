@@ -6,7 +6,7 @@
 <OrderTable TableTitle="Unshipped Orders" Orders="UnshippedOrders" 
     ButtonLabel="Ship" OrderSelected="ShipOrder" />
 <OrderTable TableTitle="Shipped Orders" Orders="ShippedOrders"
-    ButtonLable="Reset" OrderSelected="ResetOrder" />
+    ButtonLabel="Reset" OrderSelected="ResetOrder" />
 
 <button class="btn btn-info" @onclick="@(e => UpdateData())">
     Refresh Data
