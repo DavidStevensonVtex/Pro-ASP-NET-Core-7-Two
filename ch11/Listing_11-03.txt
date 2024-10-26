@@ -1,3 +1,5 @@
+Listing 11.3 Defining a connection string in the appsettings.json file in the SportsStore folder
+
 {
   "Logging": {
     "LogLevel": {
