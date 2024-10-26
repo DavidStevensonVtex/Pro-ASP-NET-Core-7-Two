@@ -1,4 +1,4 @@
-﻿@* Listing 11.11 Applying authorization in the Index.cshtml file in the SportsStore/Pages/Admin folder *@
+@* Listing 11.11 Applying authorization in the Index.cshtml file in the SportsStore/Pages/Admin folder *@
 
 @page "/Admin"
 
