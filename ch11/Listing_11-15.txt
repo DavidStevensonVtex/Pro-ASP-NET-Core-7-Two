@@ -1,4 +1,4 @@
-﻿@* Listing 11.15 Adding a logout button in the AdminLayout.cshtml file in the SportsStore/Pages/Admin folder *@
+@* Listing 11.15 Adding a logout button in the AdminLayout.cshtml file in the SportsStore/Pages/Admin folder *@
 
 @inherits LayoutComponentBase
 
