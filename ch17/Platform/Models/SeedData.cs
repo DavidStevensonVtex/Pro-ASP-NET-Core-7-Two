@@ -15,10 +15,10 @@ namespace Platform.Models
             {6, 21 }, { 7, 28 }, { 8 , 36 }, { 9, 45 }, { 10, 55 }
         };
 
-        public SeedData (CalculationContext context, ILogger<SeedData> logger)
+        public SeedData (CalculationContext dataContext, ILogger<SeedData> log)
         {
-            context = context;
-            logger = logger;
+            context = dataContext;
+            logger = log;
         }
 
         public void SeedDatabase()
