@@ -31,7 +31,7 @@ namespace Platform.Models
                     data.Select(kvp => new Calculation()
                     {
                         Count = kvp.Key, Result = kvp.Value
-                    });
+                    }));
 
                 context.SaveChanges();
                 logger.LogInformation("Database seeded");
