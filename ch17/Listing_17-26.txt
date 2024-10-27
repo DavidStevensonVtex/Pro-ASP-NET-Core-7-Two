@@ -1,3 +1,5 @@
+Listing 17.26 A connection string in the appsettings.json file in the Platform folder
+
 {
   "Logging": {
     "LogLevel": {
