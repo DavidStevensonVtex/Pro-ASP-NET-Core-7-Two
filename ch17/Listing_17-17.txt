@@ -12,7 +12,8 @@ var app = builder.Build();
 
 app.UseOutputCache();
 
-app.MapEndpoint<Platform.SumEndpoint>("/sum/{count:int=2000000000}");
+app.MapEndpoint<Platform.SumEndpoint>("/sum/{count:int=2000000000}")
+	.CacheOutput();
 
 app.MapGet("/", async context =>
 {
