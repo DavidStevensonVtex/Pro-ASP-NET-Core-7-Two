@@ -1,4 +1,4 @@
-﻿// Listing 17.32 Using a database in the SumEndpoint.cs file in the Platform folder
+// Listing 17.32 Using a database in the SumEndpoint.cs file in the Platform folder
 
 using Platform.Models;
 using Platform.Services;
