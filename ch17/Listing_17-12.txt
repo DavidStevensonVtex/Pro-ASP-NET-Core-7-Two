@@ -1,3 +1,5 @@
+Listing 17.12 A connection string for caching in the appsettings.json file in the Platform folder
+
 {
   "Logging": {
     "LogLevel": {
