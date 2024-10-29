@@ -7,6 +7,6 @@ namespace WebApp.Models
         public long SupplierId { get; set; }
         public required string Name { get; set; }
         public required string City { get; set; }
-        public IEnumerable<Product> Products { get; set; }
+        public IEnumerable<Product>? Products { get; set; }
     }
 }
