@@ -7,3 +7,9 @@ Invoke-WebRequest http://localhost:5000/api/products/1 | Select-Object Content
 # Content
 # -------
 # {"productId":1,"name":"Green Kayak","price":275.00,"categoryId":2,"category":null,"supplierId":2,"supplier":null} 
+
+# After changes to ProductsController.cs (null values removed):
+
+# Content
+# -------
+# {"productId":1,"name":"Green Kayak","price":275.00,"categoryId":2,"supplierId":2}
