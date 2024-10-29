@@ -6,6 +6,6 @@ namespace WebApp.Models
     {
         public long CategoryId { get; set; }
         public required string Name { get; set; }
-        public IEnumerable<Product>? Products { get; set; }
+        public IEnumerable<Supplier>? Products { get; set; }
     }
 }
