@@ -1,4 +1,4 @@
-﻿// Listing 19.21 Redirecting in the ProductsController.cs file in the Controllers folder
+// Listing 19.21 Redirecting in the ProductsController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
