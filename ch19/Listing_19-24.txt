@@ -1,4 +1,4 @@
-﻿// Listing 19.24 Validtion Attributes in the ProductBindingTarget.cs file in the WebApp/Models folder
+// Listing 19.24 Validtion Attributes in the ProductBindingTarget.cs file in the WebApp/Models folder
 
 using System.ComponentModel.DataAnnotations;
 
