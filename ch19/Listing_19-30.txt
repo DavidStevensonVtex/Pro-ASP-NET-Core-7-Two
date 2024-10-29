@@ -1,4 +1,4 @@
-﻿// Listing 19.30 Configuring the serializer to remove a null value the Product.cs file in the Models folder
+// Listing 19.30 Configuring the serializer to remove a null value the Product.cs file in the Models folder
 
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
