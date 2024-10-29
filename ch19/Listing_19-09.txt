@@ -1,4 +1,4 @@
-﻿// Listing 19.9 Reading JSON data from the HTTP Post body in the ProductsController.cs file in the Controllers folder
+// Listing 19.9 Reading JSON data from the HTTP Post body in the ProductsController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
