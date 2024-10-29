@@ -1,1 +1,2 @@
-﻿global using WebApp.Models;
+﻿global using WebApp;
+global using WebApp.Models;
