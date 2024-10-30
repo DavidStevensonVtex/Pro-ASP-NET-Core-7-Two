@@ -1,0 +1,10 @@
+<ProductBindingTarget xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://schemas.datacontract.org/2004/07/WebApp.Models">
+    <Category i:nil="true" />
+    <CategoryId>1</CategoryId>
+    <Name>Kayak</Name>
+    <Price>275.00</Price>
+    <ProductId>1</ProductId>
+    <Supplier i:nil="true" />
+    <SupplierId>1</SupplierId>
+</ProductBindingTarget>
