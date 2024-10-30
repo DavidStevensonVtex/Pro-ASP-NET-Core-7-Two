@@ -1,4 +1,4 @@
-﻿// Listing 20.31 Declaring HTTP Status Code results for Swagger in the ProductsController.cs file in the Controllers folder
+// Listing 20.31 Declaring HTTP Status Code results for Swagger in the ProductsController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
