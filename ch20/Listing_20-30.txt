@@ -1,3 +1,5 @@
+Listing 20.30 Enabling the analyzer in the WebApp.csproj file in the WebApp folder
+
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
