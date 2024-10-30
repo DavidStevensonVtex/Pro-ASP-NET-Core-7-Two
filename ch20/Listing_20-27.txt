@@ -1,4 +1,4 @@
-﻿// Listing 20.27 Removing XML action in the ContentController.cs file in the Controllers folder
+// Listing 20.27 Removing XML action in the ContentController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OutputCaching;
