@@ -1,4 +1,4 @@
-﻿// Listing 20.8 Adding a HTTP Patch action in the SuppliersController.cs file in the Controllers folder
+// Listing 20.8 Adding a HTTP Patch action in the SuppliersController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.JsonPatch;
