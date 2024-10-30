@@ -1,4 +1,4 @@
-﻿// Listing 20.5 Fixing circular references in the SuppliersController.cs file in the Controllers folder
+// Listing 20.5 Fixing circular references in the SuppliersController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
