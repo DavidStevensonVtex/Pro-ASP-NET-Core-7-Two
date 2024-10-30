@@ -1,4 +1,4 @@
-﻿// Listing 20.21 Formatting in the ContentController.cs file in the Controllers folder
+// Listing 20.21 Formatting in the ContentController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
