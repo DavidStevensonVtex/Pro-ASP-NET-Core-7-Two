@@ -1,0 +1,24 @@
+﻿// Listing 20.1 The contents of the SuppliersController.cs file in the Controllers folder
+
+using Microsoft.AspNetCore.Mvc;
+
+namespace WebApp.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class SuppliersController : ControllerBase
+    {
+        private DataContext context;
+
+        public SuppliersController(DataContext ctx)
+        {
+            context = ctx;
+        }
+
+        [HttpGet("{id}")]
+        public async Task<Supplier?> GetSupplier(long id)
+        {
+            return await context.Suppliers.FindAsync(id);
+        }
+    }
+}
