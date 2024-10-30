@@ -1,4 +1,4 @@
-﻿// Listing 20.4 Related data in the SuppliersController.cs file in the Controllers folder
+// Listing 20.4 Related data in the SuppliersController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
