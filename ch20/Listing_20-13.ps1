@@ -2,7 +2,12 @@
 
 Invoke-WebRequest http://localhost:5000/api/content/object `
         -Headers @{Accept="application/xml"}| `
-    Select-Object @{n='Content-Type'; e={ $_.Headers."Content-Type" }}, Content
+    Select-Object @{n='Content-Type'; e={ $_.Headers."Content-Type" }}, Content 
+
+Invoke-WebRequest http://localhost:5000/api/content/object `
+        -Headers @{Accept="application/xml"}| `
+    Select-Object Content | foreach { $_.Content } | `
+    Out-File -Path "./product.xml" -Width 50000
 
 # PS D:\drs\ASPNETCore\Pro-ASP-NET-Core-7-Two\ch20\WebApp> ..\Listing_20-13.ps1
 
