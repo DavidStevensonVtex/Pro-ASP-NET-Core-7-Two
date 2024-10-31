@@ -1,4 +1,4 @@
-﻿@* Listing 21.8 Adding Elements in the Index.cshtml file in the Views/Home folder *@
+@* Listing 21.8 Adding Elements in the Index.cshtml file in the Views/Home folder *@
 
 @model Product
 
