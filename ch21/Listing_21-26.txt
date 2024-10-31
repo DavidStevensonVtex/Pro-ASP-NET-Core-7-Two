@@ -1,4 +1,4 @@
-﻿@* Listing 21.26 Setting content in the Watersports.cshtml file in the Views/Home folder *@
+@* Listing 21.26 Setting content in the Watersports.cshtml file in the Views/Home folder *@
 
 @model Product
 
