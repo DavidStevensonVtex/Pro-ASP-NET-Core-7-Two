@@ -1,4 +1,4 @@
-﻿@* Listing 21.25 A switch statement in the Watersports.cshtml file in the Views/Home folder *@
+@* Listing 21.25 A switch statement in the Watersports.cshtml file in the Views/Home folder *@
 
 @model Product
 
