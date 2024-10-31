@@ -1,4 +1,4 @@
-﻿// Listing 21.9 Selecting a view the HomeController.cs file in the Controllers folder
+// Listing 21.9 Selecting a view the HomeController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
