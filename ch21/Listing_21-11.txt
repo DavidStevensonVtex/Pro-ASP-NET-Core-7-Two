@@ -1,0 +1,13 @@
+@* Listing 21.11 The contents of the Common.cshtml file in the Views/Shared folder  *@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="~/lib/boostrap/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h5 class="bg-secondary text-white text-center m-2 p-2">
+            Shared View
+        </h5>
+    </body>
+</html>
