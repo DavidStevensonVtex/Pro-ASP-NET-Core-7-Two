@@ -1,0 +1,25 @@
+@* Listing 21.28 The contents of the List.cshtml file in the Views/Home folder *@
+
+@model IEnumerable<Product>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/lib/boostrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h6 class="bg-secondary text-white text-center m-2 p-2">
+        Products
+    </h6>
+    <div class="m-2">
+        <table class="table table-sm table-striped table-bordered">
+            <tbody>
+                @foreach (Product product in Model)
+                {
+                    <tr><td>@product.Name</td><td>@product.Price.ToString("c")</td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
