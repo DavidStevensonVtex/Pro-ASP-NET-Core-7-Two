@@ -14,11 +14,9 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+app.UseStaticFiles();
 app.MapControllers();
 app.MapDefaultControllerRoute();
-
-app.UseStaticFiles();
-app.MapGet("/", () => "Hello World!");
 
 var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<DataContext>();
 SeedData.SeedDatabase(context);
