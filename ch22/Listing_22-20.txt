@@ -1,4 +1,4 @@
-﻿@* Listing 22.20 Using sections in the _Layout.cshtml file in the Views/Shared folder *@
+@* Listing 22.20 Using sections in the _Layout.cshtml file in the Views/Shared folder *@
 
 <!DOCTYPE html>
 
