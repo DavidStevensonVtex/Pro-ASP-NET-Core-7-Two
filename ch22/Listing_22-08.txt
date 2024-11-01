@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="d:\drs\aspnetcore\pro-asp-net-core-7-two\ch22\webapp\wwwroot\lib\boostrap\css\bootstrap.min.css" rel="stylesheet" />
+    <link href="/lib/boostrap/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
         <h6 class="bg-secondary text-white text-center m-2 p-2">Cubed</h6>
