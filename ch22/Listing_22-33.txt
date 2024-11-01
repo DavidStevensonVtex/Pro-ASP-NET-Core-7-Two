@@ -1,4 +1,4 @@
-﻿@* Listing 22.33 Using JSON encoding in the Index.cshtml file in the Views/Home folder *@
+@* Listing 22.33 Using JSON encoding in the Index.cshtml file in the Views/Home folder *@
 
 @model Product?
 @{
