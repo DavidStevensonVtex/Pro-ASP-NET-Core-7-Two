@@ -1,0 +1,13 @@
+@* Listing 22.9 The contents of the _Layout.cshtml file in the Views/Shared folder *@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="~/lib/boostrap/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h6 class="bg-primary text-white text-centetr m-2 p-2">Shared View</h6>
+        @RenderBody()
+    </body>
+</html>
