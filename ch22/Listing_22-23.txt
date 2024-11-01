@@ -1,4 +1,4 @@
-﻿@* Listing 22.23 Using optional sections in the _Layout.cshtml file in the Views/Shared folder *@
+@* Listing 22.23 Using optional sections in the _Layout.cshtml file in the Views/Shared folder *@
 
 <!DOCTYPE html>
 
