@@ -1,4 +1,4 @@
-﻿// Listing 22.5 Using the view bag in the HomeController.cs file in the Controllers folder
+// Listing 22.5 Using the view bag in the HomeController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
