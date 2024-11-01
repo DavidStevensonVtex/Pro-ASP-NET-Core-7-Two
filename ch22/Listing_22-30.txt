@@ -1,4 +1,4 @@
-﻿// Listing 22.30 Adding an action in the HomeController.cs file in the Controllers folder
+// Listing 22.30 Adding an action in the HomeController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
