@@ -1,4 +1,4 @@
-﻿@* Listing 22.29 Using a partial in the _RowPartial.cshtml file in the Views/Home folder *@
+@* Listing 22.29 Using a partial in the _RowPartial.cshtml file in the Views/Home folder *@
 
 @model Product 
 
