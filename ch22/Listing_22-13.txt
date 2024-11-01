@@ -1,0 +1,5 @@
+@* Listing 22.13 The contents of the _ViewStart.cshtml file in the Views folder *@
+
+@{
+    Layout = "_Layout";
+}
