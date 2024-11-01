@@ -1,4 +1,4 @@
-﻿@* Listing 22.24 Checking if a section exists in the _Layout.cshtml file in the Views/Shared folder *@
+@* Listing 22.24 Checking if a section exists in the _Layout.cshtml file in the Views/Shared folder *@
 
 <!DOCTYPE html>
 
