@@ -1,0 +1,20 @@
+﻿@* Listing 22.8 The contents of the Cubed.cshtml file in the Views/Shared folder *@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="d:\drs\aspnetcore\pro-asp-net-core-7-two\ch22\webapp\wwwroot\lib\boostrap\css\bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h6 class="bg-secondary text-white text-center m-2 p-2">Cubed</h6>
+        <form method="get" action="/cubed/cube" class="m-2">
+            <div class="form-group">
+                <label>Value</label>
+                <input name="num" class="form-control" value="@(TempData["value"])" />
+            </div>
+            <button class="btn btn-primary mt-1" type="submit">
+                The cube of @TempData["value"] is @TempData["result"]
+            </button>
+        </form>
+    </body>
+</html>
