@@ -1,4 +1,4 @@
-﻿@* Listing 23.7 Changing the route in the List.cshtml file in the Pages/Suppliers folder *@
+@* Listing 23.7 Changing the route in the List.cshtml file in the Pages/Suppliers folder *@
 
 @page "/lists/suppliers"
 @model WebApp.Pages.Suppliers.ListModel
