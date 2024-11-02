@@ -1,4 +1,4 @@
-﻿@* Listing 23.27 Accessing a service in the Data.cshtml file in the Pages folder *@
+@* Listing 23.27 Accessing a service in the Data.cshtml file in the Pages folder *@
 
 @page
 @inject DataContext context
