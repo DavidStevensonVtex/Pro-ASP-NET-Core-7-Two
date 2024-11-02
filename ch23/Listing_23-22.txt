@@ -1,4 +1,4 @@
-﻿@* Listing 23.22 Disabling layouts in the Editor.cshtml file in the Pages folder *@
+@* Listing 23.22 Disabling layouts in the Editor.cshtml file in the Pages folder *@
 
 @page "{id:long}"
 @model EditorModel
