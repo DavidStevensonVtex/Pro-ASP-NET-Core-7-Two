@@ -1,4 +1,4 @@
-﻿@* Listing 23.9 Removing the Page model class in the Index.cshtml file in the Pages folder *@
+@* Listing 23.9 Removing the Page model class in the Index.cshtml file in the Pages folder *@
 
 @page "{id:long?}"
 @model IndexModel
