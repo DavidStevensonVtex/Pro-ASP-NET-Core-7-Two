@@ -1,4 +1,4 @@
-﻿@* Listing 23.21 Removing elements in the Index.cshtml file in the Pages folder *@
+@* Listing 23.21 Removing elements in the Index.cshtml file in the Pages folder *@
 
 @page "{id:long?}"
 @model IndexModel
