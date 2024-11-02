@@ -1,0 +1,16 @@
+@* Listing 23.19 The contents of the _Layout.cshtml file in the Pages/Shared folder *@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <h5 class="bg-secondary text-white text-center m-2 p-2">
+        Razor Page
+    </h5>
+    @RenderBody()
+</body>
+</html>
