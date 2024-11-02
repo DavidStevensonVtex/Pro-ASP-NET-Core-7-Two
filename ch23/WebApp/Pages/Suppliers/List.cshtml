@@ -1,0 +1,20 @@
+﻿@* Listing 23.5 The contents of the List.cshtml file in the Pages/Suppliers folder *@
+
+@page
+@model WebApp.Pages.Suppliers.ListModel
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h5 class="bg-primary text-white text-center m-2 p-2">Suppliers</h5>
+        <ul class="list-group m-2">
+        @foreach (string s in Model.Suppliers)
+        {
+            <li class="list-group-item">@s</li>
+        }
+        </ul>
+    </body>
+</html>
