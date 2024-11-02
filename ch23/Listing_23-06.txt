@@ -1,4 +1,4 @@
-﻿@* Listing 23.6 Defining a route variable the Index.cshtml file in the Pages folder *@
+@* Listing 23.6 Defining a route variable the Index.cshtml file in the Pages folder *@
 
 @page "{id:long?}"
 @model IndexModel
