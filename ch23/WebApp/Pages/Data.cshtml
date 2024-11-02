@@ -1,0 +1,12 @@
+﻿@* Listing 23.26 The contents of the Data.cshtml file in the Pages folder *@
+
+@page
+@model WebApp.Pages.DataPageModel
+
+<h5 class="bg-primary text-white text-center m-2 p-2">Categories</h5>
+<ul class="list-group m-2">
+    @foreach (Category c in Model.Categories)
+    {
+        <li class="list-item-group">@c.Name</li>
+    }
+</ul>
