@@ -1,0 +1,30 @@
+@* Listing 23.16 The contents of the Editor.cshtml file in the Pages folder *@
+
+@page
+@model EditorModel
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="bg-primary text-white text-center m-2 p-2">Editor</div>
+        <div class="m-2">
+            <table class="table table-sm table-striped table-bordered">
+                <tbody>
+                    <tr><th>Name</th><td>@Model.Product?.Name</td></tr>
+                    <tr><th>Price</th><td>@Model.Product?.Price</td></tr>
+                </tbody>
+            </table>
+            <form method="post">
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <label>Price</label>
+                    <input name="price" class="form-control" value="@Model.Product?.Price" />
+                </div>
+                <button class="btn btn-primary mt-2" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
