@@ -1,0 +1,20 @@
+﻿@* Listing 24.4 The contents of the Cities.cshtml file in the Pages folder *@
+
+@page
+@inject CitiesData Data
+
+<div class="m-2">
+    <table class="table table-sm table-striped table-bordered">
+        <tbody>
+            @foreach (City c in Data.Cities)
+            {
+                <tr>
+                    <td>@c.Name</td>
+                    <td>@c.Country</td>
+                    <td>@c.Population?.ToString("N0")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
