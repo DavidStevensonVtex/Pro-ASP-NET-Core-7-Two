@@ -1,4 +1,4 @@
-﻿@* Listing 24.23b Supplying a value to a component in the Data.cshtml file in the Pages folder *@
+@* Listing 24.23b Supplying a value to a component in the Data.cshtml file in the Pages folder *@
 
 @page
 @inject DataContext context
