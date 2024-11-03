@@ -1,0 +1,12 @@
+﻿@* Listing 23.25 Using a partial view in the Index.cshtml file in the Pages folder *@
+
+@page "{id:long?}"
+@model IndexModel
+
+<div class="bg-primary text-white text-center m-2 p-2">
+    @Model.Product?.Name
+</div>
+
+@* <partial name="_ProductPartial" for="Model.Product" />*@
+
+@await Html.PartialAsync("_ProductPartial", Model.Product)
