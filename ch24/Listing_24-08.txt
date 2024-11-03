@@ -1,4 +1,4 @@
-﻿@* Listing 24.8 Using a view component in the Index.cshtml file in the Views/Home folder *@
+@* Listing 24.8 Using a view component in the Index.cshtml file in the Views/Home folder *@
 
 @model Product?
 @{
