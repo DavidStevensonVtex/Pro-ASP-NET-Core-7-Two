@@ -1,4 +1,4 @@
-﻿@* Listing 24.9 Adding a namespace in the _ViewImports.cshtml file in the Views folder *@
+@* Listing 24.9 Adding a namespace in the _ViewImports.cshtml file in the Views folder *@
 
 @using WebApp.Models
 @using WebApp.Components
