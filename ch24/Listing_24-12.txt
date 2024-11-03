@@ -1,4 +1,4 @@
-﻿@* Listing 24.12 Adding a @addTagHelper directive in the _ViewImports.cshtml file in the Pages folder *@
+@* Listing 24.12 Adding a @addTagHelper directive in the _ViewImports.cshtml file in the Pages folder *@
 
 @namespace WebApp.Pages
 @using WebApp.Models
