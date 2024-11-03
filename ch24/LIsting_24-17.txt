@@ -1,4 +1,4 @@
-﻿// Listing 24.17 Using the content method in the CitySummary.cs file in the WebApp/Components folder
+// Listing 24.17 Using the content method in the CitySummary.cs file in the WebApp/Components folder
 
 using Microsoft.AspNetCore.Mvc;
 
