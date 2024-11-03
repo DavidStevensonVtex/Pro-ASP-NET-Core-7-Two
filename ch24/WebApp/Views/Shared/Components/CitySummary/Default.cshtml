@@ -1,0 +1,20 @@
+﻿@* Listing 24.16 The Default.cshtml file in the Views/Shared/Components/CitySummary folder *@
+
+@model CityViewModel
+
+<table class="table tablle-sm table-bordered text-white bg-secondary">
+    <thead>
+        <tr>
+            <td>Cities</td>
+            <td class="text-right">
+                @Model?.Cities
+            </td>
+        </tr>
+        <tr>
+            <td>Population</td>
+            <td class="text-right">
+                @($"{Model?.Population:N0}")
+            </td>
+        </tr>
+    </thead>
+</table>
