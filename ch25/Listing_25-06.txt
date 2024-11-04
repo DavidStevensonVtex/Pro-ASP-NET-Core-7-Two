@@ -12,7 +12,7 @@ namespace WebApp.TagHelpers
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
             output.Attributes.SetAttribute("class",
-                $"bg-{BgColor} text-center text={TextColor}");
+                $"bg-{BgColor} text-center text-{TextColor}");
         }
     }
 }
