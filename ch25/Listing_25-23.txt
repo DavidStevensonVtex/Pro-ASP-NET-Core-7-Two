@@ -1,4 +1,4 @@
-﻿@* Listing 25.23 Applying a tag helper in the Editor.cshtml file in the Pages folder *@
+@* Listing 25.23 Applying a tag helper in the Editor.cshtml file in the Pages folder *@
 
 @page "{id:long}"
 @model EditorModel
