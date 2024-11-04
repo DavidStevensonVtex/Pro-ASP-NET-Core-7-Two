@@ -1,4 +1,4 @@
-﻿// Listing 25.10 Balancing scope in the TrTagHelper.cs file in the TagHelpers folder
+// Listing 25.10 Balancing scope in the TrTagHelper.cs file in the TagHelpers folder
 
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
