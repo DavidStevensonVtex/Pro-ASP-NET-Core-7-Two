@@ -1,4 +1,4 @@
-﻿@* Listing 25.18 Adding an attribute in the Index.cshtml file in the Views/Home folder *@
+@* Listing 25.18 Adding an attribute in the Index.cshtml file in the Views/Home folder *@
 
 @model Product?
 @{
