@@ -1,4 +1,4 @@
-﻿// Listing 25.14 HTML elements in the TableHeadTagHelper.cs file in the TagHelpers folder
+// Listing 25.14 HTML elements in the TableHeadTagHelper.cs file in the TagHelpers folder
 
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Razor.TagHelpers;
