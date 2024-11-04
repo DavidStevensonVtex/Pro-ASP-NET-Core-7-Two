@@ -1,4 +1,4 @@
-﻿// Listing 25.25 Handling names in the ModelRowTagHelper.cs file in the TagHelpers folder
+// Listing 25.25 Handling names in the ModelRowTagHelper.cs file in the TagHelpers folder
 
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
