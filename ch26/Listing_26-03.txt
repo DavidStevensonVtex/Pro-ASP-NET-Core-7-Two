@@ -1,4 +1,4 @@
-﻿@* Listing 26.3 Making changes in the List.cshtml file in the Views/Home folder *@
+@* Listing 26.3 Making changes in the List.cshtml file in the Views/Home folder *@
 
 @model IEnumerable<Product>
 @{  Layout = "_SimpleLayout"; }
