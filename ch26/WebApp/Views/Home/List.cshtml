@@ -1,0 +1,29 @@
+﻿@* Listing 22.27 Using a partial view in the List.cshtml file in the Views/Home folder *@
+
+@model IEnumerable<Product>
+@{
+    Layout = null;
+    decimal average = Model.Average(p => p.Price);
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h6 class="bg-secondary text-white text-center m-2 p-2">
+        Products
+    </h6>
+    <div class="m-2">
+        <table class="table table-sm table-striped table-bordered">
+            <tbody>
+                @foreach (Product p in Model)
+                {
+                    <partial name="_RowPartial" model="p" />
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
