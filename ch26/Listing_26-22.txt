@@ -1,4 +1,4 @@
-﻿@* Listing 26.22 Using environment in the _SimpleLayout.cshtml file in the Views/Shared folder *@
+@* Listing 26.22 Using environment in the _SimpleLayout.cshtml file in the Views/Shared folder *@
 
 <!DOCTYPE html>
 
