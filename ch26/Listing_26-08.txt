@@ -1,4 +1,4 @@
-﻿@* Listing 26.8 Targeting a Razor page in the List.cshtml file in the Views/Home folder *@
+@* Listing 26.8 Targeting a Razor page in the List.cshtml file in the Views/Home folder *@
 
 @model IEnumerable<Product>
 @{  Layout = "_SimpleLayout"; }
