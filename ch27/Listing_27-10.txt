@@ -1,4 +1,4 @@
-@* Listing 27.10 Using a tag helper in the Form.cshtml file in the Views/Form folder *@
+@* Listing 27.10 Using a tag helper the Form.cshtml file in the Views/Form folder *@
 
 @model Product 
 @{    Layout = "_SimpleLayout"; }
