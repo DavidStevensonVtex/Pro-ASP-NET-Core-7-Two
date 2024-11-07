@@ -1,0 +1,14 @@
+﻿@* Listing 27.6 The contents ofthe Form.cshtml file in the Views/Form folder *@
+
+@model Product 
+@{    Layout = "_SimpleLayout"; }
+
+<h5 class="bg-primary text-white text-center p-2">HTML Form</h5>
+
+<form action="/controllers/form/submitform" method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input class="form-control" name="Name" value="@Model.Name" />
+    </div>
+    <button type="submit" class="btn btn-primary m-2">Submit</button>
+</form>
