@@ -1,4 +1,4 @@
-﻿@* Listing 27.1 The contents of the _SimpleLayout.cshtml file in the Views/Shared folder *@
+@* Listing 27.1 The contents of the _SimpleLayout.cshtml file in the Views/Shared folder *@
 
 <!DOCTYPE html>
 
