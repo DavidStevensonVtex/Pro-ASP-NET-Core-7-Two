@@ -1,0 +1,15 @@
+﻿@* Listing 27.8 The contents of the FormHandler.cshtml file in the Pages folder *@
+
+@page "/pages/form/{id:long?}"
+@model WebApp.Pages.FormHandlerModel
+
+<div class="m-2">
+    <h5 class="bg-primary text-white text-center p-2">HTML Forms</h5>
+    <form action="/pages/form" method="post">
+        <div class="form-group">
+            <label>Name</label>
+            <input class="form-control" name="Name" value="@Model.Product?.Name" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+    </form>
+</div>
