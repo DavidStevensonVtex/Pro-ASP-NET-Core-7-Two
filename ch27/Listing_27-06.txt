@@ -1,4 +1,4 @@
-@* Listing 27.6 The contents ofthe Form.cshtml file in the Views/Form folder *@
+@* Listing 27.6 The contents of the Form.cshtml file in the Views/Form folder *@
 
 @model Product 
 @{    Layout = "_SimpleLayout"; }
