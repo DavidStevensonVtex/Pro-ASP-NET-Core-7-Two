@@ -1,4 +1,4 @@
-﻿@* Listing 27.13 Transforming a button in the FormHandler.cshtml file in the Pages folder *@
+@* Listing 27.13 Transforming a button in the FormHandler.cshtml file in the Pages folder *@
 
 @page "/pages/form/{id:long?}"
 @model WebApp.Pages.FormHandlerModel
