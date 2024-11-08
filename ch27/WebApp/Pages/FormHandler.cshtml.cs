@@ -1,4 +1,4 @@
-// Listing 27.8b The contents of the FromHandler.cshtml.cs file in the Pages folder
+// Listing 27.22b Display related data in the FromHandler.cshtml.cs file in the Pages folder
 
 namespace WebApp.Pages
 {
@@ -12,11 +12,14 @@ namespace WebApp.Pages
             context = dbContext;
         }
 
-        public Product? Product { get; set; }
+        public Product? Product { get; set; } = new() { Name = string.Empty };
 
         public async Task OnGetAsync(long id = 1)
         {
-            Product = await context.Products.FindAsync(id);
+            Product = await context.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .FirstAsync(p => p.ProductId == id);
         }
 
         public IActionResult OnPost()

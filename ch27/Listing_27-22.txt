@@ -1,4 +1,4 @@
-﻿@* Listing 27.22 Display related data in the FormHandler.cshtml file in the Pages folder *@
+@* Listing 27.22 Display related data in the FormHandler.cshtml file in the Pages folder *@
 
 @page "/pages/form/{id:long?}"
 @model WebApp.Pages.FormHandlerModel
@@ -33,3 +33,42 @@
 <button form="htmlform" asp-page="FormHandler" class="btn btn-primary mt-2">
     Submit (Outside Form)
 </button>
+
+
+
+// Listing 27.22b Display related data in the FromHandler.cshtml.cs file in the Pages folder
+
+namespace WebApp.Pages
+{
+    [IgnoreAntiforgeryToken]
+    public class FormHandlerModel : PageModel
+    {
+        private DataContext context;
+
+        public FormHandlerModel(DataContext dbContext)
+        {
+            context = dbContext;
+        }
+
+        public Product? Product { get; set; } = new() { Name = string.Empty };
+
+        public async Task OnGetAsync(long id = 1)
+        {
+            Product = await context.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .FirstAsync(p => p.ProductId == id);
+        }
+
+        public IActionResult OnPost()
+        {
+            foreach (string key in Request.Form.Keys
+                .Where(k => !k.StartsWith("_")))
+            {
+                TempData[key] = string.Join(", ", (string?)Request.Form[key]);
+            }
+
+            return RedirectToPage("FormResults");
+        }
+    }
+}
