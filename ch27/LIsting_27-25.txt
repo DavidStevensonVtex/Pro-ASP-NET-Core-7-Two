@@ -1,4 +1,4 @@
-﻿// Listing 27.25 Providing a Category sequence in the FormController.cs file in the Controllers folder
+// Listing 27.25 Providing a Category sequence in the FormController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc.Rendering;
 
