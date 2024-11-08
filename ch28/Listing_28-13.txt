@@ -1,4 +1,4 @@
-﻿@* Listing 28.13 Nested form elements the Form.cshtml file in the Views/Form folder *@
+@* Listing 28.13 Nested form elements the Form.cshtml file in the Views/Form folder *@
 
 @model Product 
 @{    Layout = "_SimpleLayout"; }
