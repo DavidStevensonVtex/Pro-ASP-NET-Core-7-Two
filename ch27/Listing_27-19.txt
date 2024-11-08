@@ -1,4 +1,4 @@
-﻿@* Listing 27.19 Removing an attribute in the Form.cshtml file in the Views/Form folder *@
+@* Listing 27.19 Removing an attribute in the Form.cshtml file in the Views/Form folder *@
 
 @model Product 
 @{    Layout = "_SimpleLayout"; }
