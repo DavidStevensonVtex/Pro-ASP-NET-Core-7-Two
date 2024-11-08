@@ -1,4 +1,4 @@
-﻿// Listing 28.2 Removing an attribute in the Product.cs file in the Models folder
+// Listing 28.2 Removing an attribute in the Product.cs file in the Models folder
 
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
