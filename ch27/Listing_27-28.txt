@@ -1,4 +1,4 @@
-﻿// Listing 27.28 Removing a filter in the FormController.cs file in the Controllers folder
+// Listing 27.28 Removing a filter in the FormController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc.Rendering;
 
