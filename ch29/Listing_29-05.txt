@@ -1,4 +1,4 @@
-﻿// Listing 29.5 Checking the outcome in the FormController.cs file in the Controllers folder
+// Listing 29.5 Checking the outcome in the FormController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Text.Json;
