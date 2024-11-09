@@ -1,4 +1,4 @@
-﻿@* Listing 28.25 Binding to a dictionary the Bindings.cshtml file in the Pages folder *@
+@* Listing 28.25 Binding to a dictionary the Bindings.cshtml file in the Pages folder *@
 
 @page "/pages/bindings"
 @model BindingsModel
