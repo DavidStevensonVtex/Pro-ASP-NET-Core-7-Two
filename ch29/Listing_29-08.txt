@@ -1,4 +1,4 @@
-﻿@* Listing 29.8 Displaying a validation summary in the Form.cshtml file in the Views/Form folder *@
+@* Listing 29.8 Displaying a validation summary in the Form.cshtml file in the Views/Form folder *@
 
 @model Product 
 @{    Layout = "_SimpleLayout"; }
