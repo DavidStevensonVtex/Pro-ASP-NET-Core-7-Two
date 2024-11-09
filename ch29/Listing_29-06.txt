@@ -1,0 +1,8 @@
+@* Listing 29.6 The contents of the _Validation.cshtml file in the Views/Shared folder *@
+
+<script type="text/javascript">
+    window.addEventListener("DOMCotentLoaded", () => {
+        document.querySelectorAll("input.input-validation-error")
+            .forEach((Element => { elem.classList.add("is-invalid") };
+    });
+</script>
