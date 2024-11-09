@@ -1,4 +1,4 @@
-﻿@* Listing 28.6 Using model binding in the FormHandler.cshtml file in the Pages folder *@
+﻿@* Listing 28.18 Specifying a model binding prefix in the FormHandler.cshtml file in the Pages folder *@
 
 @page "/pages/form/{id:long?}"
 @model WebApp.Pages.FormHandlerModel
@@ -14,6 +14,12 @@
             <label>Price</label>
             <input class="form-control" asp-for="Product.Price" name="price" />
         </div>
+        <dov action="form-group">
+            <label>Category Name</label>
+            @{ #pragma warning disable CS8602 }
+            <input class="form-control" asp-for="Product.Category.Name" />
+            @{ #pragma warning restore CS8602 }
+        </dov>
         <button type="submit" class="btn btn-primary mt-2">Submit</button>
     </form>
 </div>
