@@ -1,4 +1,4 @@
-﻿// Listing 28.21 Decorating a property in the Product.cs file in the Models folder
+// Listing 28.21 Decorating a property in the Product.cs file in the Models folder
 
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.ComponentModel.DataAnnotations.Schema;
