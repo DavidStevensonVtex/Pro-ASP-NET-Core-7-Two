@@ -1,4 +1,4 @@
-﻿// Listing 29.12 Model level validation in the FormController.cs file in the Controllers folder
+// Listing 29.12 Model level validation in the FormController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
