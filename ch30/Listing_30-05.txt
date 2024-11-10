@@ -1,4 +1,6 @@
-﻿{
+// Listing 30.5 Enabling HTTPS in the launchSettings.json file in the Properties folder
+
+{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
