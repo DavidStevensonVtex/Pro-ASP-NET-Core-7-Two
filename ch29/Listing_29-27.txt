@@ -1,4 +1,4 @@
-﻿// Listing 29.27 Adding parameters in the ValidationController.cs file in the Controllers folder
+// Listing 29.27 Adding parameters in the ValidationController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc;
 
