@@ -1,4 +1,4 @@
-// 29.15 Applying validation attributes in the Product.cs file in the Models folder
+// Listing 29.15 Applying validation attributes in the Product.cs file in the Models folder
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
