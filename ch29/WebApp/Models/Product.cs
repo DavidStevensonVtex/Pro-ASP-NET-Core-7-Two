@@ -10,7 +10,7 @@ namespace WebApp.Models
     {
         public long ProductId { get; set; }
 
-        [Required(ErrorMessage = "PLease enter a name")]
+        [Required(ErrorMessage = "Please enter a name")]
         public required string Name { get; set; }
 
         [Range(1, 9999, ErrorMessage = "Please enter a positive price")]
