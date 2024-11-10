@@ -29,30 +29,30 @@ namespace WebApp.Pages
 
         public IActionResult OnPost()
         {
-            if (ModelState.GetValidationState(nameof(Product.Price)) == ModelValidationState.Valid &&
+            if (ModelState.GetValidationState("Product.Price") == ModelValidationState.Valid &&
                 Product.Price <= 0)
             {
-                ModelState.AddModelError(nameof(Product.Price), "Enter a positive price");
+                ModelState.AddModelError("Product.Price", "Enter a positive price");
             }
 
-            if (ModelState.GetValidationState(nameof(Product.Name)) == ModelValidationState.Valid &&
-                ModelState.GetValidationState(nameof(Product.Price)) == ModelValidationState.Valid &&
+            if (ModelState.GetValidationState("Product.Name") == ModelValidationState.Valid &&
+                ModelState.GetValidationState("Product.Price") == ModelValidationState.Valid &&
                 Product.Name.ToLower().StartsWith("small") &&
                 Product.Price > 100)
             {
                 ModelState.AddModelError("", "Small products cannot cost more than $100");
             }
 
-            if (ModelState.GetValidationState(nameof(Product.CategoryId)) == ModelValidationState.Valid &&
+            if (ModelState.GetValidationState("Product.CategoryId") == ModelValidationState.Valid &&
                 !context.Categories.Any(c => c.CategoryId == Product.CategoryId))
             {
-                ModelState.AddModelError(nameof(Product.CategoryId), "Enter an existing category ID");
+                ModelState.AddModelError("Product.CategoryId", "Enter an existing category ID");
             }
 
-            if (ModelState.GetValidationState(nameof(Product.SupplierId)) == ModelValidationState.Valid &&
+            if (ModelState.GetValidationState("Product.SupplierId") == ModelValidationState.Valid &&
                 !context.Suppliers.Any(s => s.SupplierId == Product.SupplierId))
             {
-                ModelState.AddModelError(nameof(Product.SupplierId), "Enter an existing Supplier ID");
+                ModelState.AddModelError("Product.SupplierId", "Enter an existing Supplier ID");
             }
 
             if (ModelState.IsValid)
