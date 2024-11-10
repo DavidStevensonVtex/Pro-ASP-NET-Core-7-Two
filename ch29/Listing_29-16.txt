@@ -1,4 +1,4 @@
-﻿// Listing 29.16 Removing explicit validation in the Controllers/FormController.cs file
+// Listing 29.16 Removing explicit validation in the Controllers/FormController.cs file
 
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
