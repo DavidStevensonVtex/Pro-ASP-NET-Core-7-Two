@@ -1,4 +1,4 @@
-﻿@* Listing 28.18 Specifying a model binding prefix in the FormHandler.cshtml file in the Pages folder *@
+﻿@* Listing 29.14 Validating data in the FormHandler.cshtml file in the Pages folder *@
 
 @page "/pages/form/{id:long?}"
 @model WebApp.Pages.FormHandlerModel
@@ -8,18 +8,28 @@
     <form asp-page="FormHandler" method="post" id="htmlform">
         <div class="form-group">
             <label>Name</label>
-            <input class="form-control" asp-for="Product.Name" name="name" />
+            <span asp-validation-for="Product.Name" class="text-danger"></span>
+            <input class="form-control" asp-for="Product.Name" />
         </div>
         <div class="form-group">
             <label>Price</label>
-            <input class="form-control" asp-for="Product.Price" name="price" />
+            <span asp-validation-for="Product.Price" class="text-danger"></span>
+            <input class="form-control" asp-for="Product.Price" />
         </div>
-        <dov action="form-group">
-            <label>Category Name</label>
-            @{ #pragma warning disable CS8602 }
-            <input class="form-control" asp-for="Product.Category.Name" />
-            @{ #pragma warning restore CS8602 }
-        </dov>
+        <div class="form-group">
+            <label>CategoryId</label>
+            <div>
+                <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+            </div>
+            <input class="form-control" asp-for="Product.CategoryId" />
+        </div>
+        <div class="form-group">
+            <label>SupplierId</label>
+            <div>
+                <span asp-validation-for="Product.SupplierId" class="text-danger"></span>
+            </div>
+            <input class="form-control" asp-for="Product.SupplierId" />
+        </div>
         <button type="submit" class="btn btn-primary mt-2">Submit</button>
     </form>
 </div>
