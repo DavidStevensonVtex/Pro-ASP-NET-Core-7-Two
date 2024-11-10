@@ -15,7 +15,7 @@ namespace WebApp.Models
         [Required(ErrorMessage = "Please enter a name")]
         public required string Name { get; set; }
 
-        [Range(1, 9999, ErrorMessage = "Please enter a positive price")]
+        [Range(1, 999999, ErrorMessage = "Please enter a positive price")]
         [Column(TypeName = "decimal(8, 2)")]
         public decimal Price { get; set; }
 
