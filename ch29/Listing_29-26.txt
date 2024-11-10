@@ -1,4 +1,4 @@
-﻿// Listing 29.26 Using the Remote validation attribute in the Product.cs file in the Models folder
+// Listing 29.26 Using the Remote validation attribute in the Product.cs file in the Models folder
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
