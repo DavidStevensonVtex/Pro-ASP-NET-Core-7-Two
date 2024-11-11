@@ -1,4 +1,4 @@
-﻿// Listing 30.23 Using a filter base class the ChangeArgAttribute.cs to the Filter folder
+// Listing 30.23 Using a filter base class the ChangeArgAttribute.cs to the Filter folder
 
 using Microsoft.AspNetCore.Mvc.Filters;
 
