@@ -8,6 +8,6 @@ namespace WebApp.Pages
     {
         public object Message { get; set; } = 
             DateTime.Now.ToLongTimeString() + 
-            "This is the Message Razor Page";
+            " This is the Message Razor Page";
     }
 }
