@@ -1,4 +1,4 @@
-﻿// Listing 30.35 Implementing the IFilterFactory interface in the GuidResponseAttribute.cs file in the Filters folder
+// Listing 30.35 Implementing the IFilterFactory interface in the GuidResponseAttribute.cs file in the Filters folder
 
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
