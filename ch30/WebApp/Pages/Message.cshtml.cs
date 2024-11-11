@@ -9,7 +9,7 @@ namespace WebApp.Pages
     //[ChangePageArgs]
     public class MessageModel : PageModel
     {
-        public object Message { get; set; }
+        public object Message { get; set; } = string.Empty;
 
         public void OnGet(string message1, string message2)
         {
