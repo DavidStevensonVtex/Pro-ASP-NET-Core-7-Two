@@ -1,4 +1,4 @@
-﻿// Listing 30.32 Applying an exception filter in the HomeController.cs file in the Controllers folder
+// Listing 30.32 Applying an exception filter in the HomeController.cs file in the Controllers folder
 
 using Microsoft.AspNetCore.Mvc.Filters;
 
