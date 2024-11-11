@@ -1,4 +1,4 @@
-﻿// Listing 30.20 An asynchronous filter of the SimpleCacheAttribute.cs file in the Filters folder
+// Listing 30.20 An asynchronous filter of the SimpleCacheAttribute.cs file in the Filters folder
 
 using Microsoft.AspNetCore.Mvc.Filters;
 
