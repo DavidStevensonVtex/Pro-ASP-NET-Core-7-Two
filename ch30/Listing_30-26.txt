@@ -7,9 +7,9 @@ namespace WebApp.Pages
     [ChangePageArgs]
     public class MessageModel : PageModel
     {
-        public object Message { get; set; }
+        public object Message { get; set; } 
 
-        public void OnGet(string message1, string message2)
+        public void OnGet (string message1, string message2)
         {
             Message = $"{message1}, {message2}";
         }
