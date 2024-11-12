@@ -1,4 +1,4 @@
-﻿// Listing 30.42 Adding ordering the MessageAttribute.cs file in the Filters folder
+// Listing 30.42 Adding ordering the MessageAttribute.cs file in the Filters folder
 
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
