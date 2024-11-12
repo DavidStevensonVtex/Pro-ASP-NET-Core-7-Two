@@ -1,4 +1,4 @@
-﻿// Listing 31.14 Adding action methods in the HomeController.cs file in the Controllers folder
+// Listing 31.14 Adding action methods in the HomeController.cs file in the Controllers folder
 
 namespace WebApp.Controllers
 {
