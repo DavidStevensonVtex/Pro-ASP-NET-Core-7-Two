@@ -1,4 +1,4 @@
-﻿// Listing 29.26 Using the Remote validation attribute in the Product.cs file in the Models folder
+﻿// Listing 31.3 Changing validation in the Product.cs file in the Models folder
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,7 +7,7 @@ using WebApp.Validation;
 
 namespace WebApp.Models
 {
-    [PhraseAndPrice(Phrase = "Small", Price = "100")]
+    //[PhraseAndPrice(Phrase = "Small", Price = "100")]
     public class Product
     {
         public long ProductId { get; set; }
@@ -20,12 +20,12 @@ namespace WebApp.Models
         public decimal Price { get; set; }
 
         [Validation.PrimaryKey(ContextType = typeof(DataContext), DataType = typeof(Category))]
-        [Remote("CategoryKey", "Validation", ErrorMessage = "Enter an existing key" )]
+        //[Remote("CategoryKey", "Validation", ErrorMessage = "Enter an existing key" )]
         public long CategoryId {  get ; set; }
         public Category? Category {  get; set; }
 
         [Validation.PrimaryKey(ContextType = typeof(DataContext), DataType = typeof(Supplier))]
-        [Remote("SupplierKey", "Validation", ErrorMessage = "Enter an existing key")]
+        //[Remote("SupplierKey", "Validation", ErrorMessage = "Enter an existing key")]
         public long SupplierId { get; set; }
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public Supplier? Supplier { get; set; }
