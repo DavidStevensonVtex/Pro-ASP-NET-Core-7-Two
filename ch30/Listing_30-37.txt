@@ -8,12 +8,16 @@ builder.Services.AddDbContext<DataContext> (opts =>
     opts.EnableSensitiveDataLogging(true);
 });
 
-builder.Services.AddControllersWithViews();
+// builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+    options.Filters.Add<HttpsOnlyAttribute>();
+});
 builder.Services.AddRazorPages();
 
 builder.Services.AddScoped<GuidResponseAttribute>();
-builder.Services.Configure<MvcOptions>(opts =>
-    opts.Filters.Add<HttpsOnlyAttribute>());
+//builder.Services.Configure<MvcOptions>(opts =>
+//    opts.Filters.Add<HttpsOnlyAttribute>());
 
 var app = builder.Build();
 
