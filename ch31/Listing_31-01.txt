@@ -1,4 +1,4 @@
-﻿// Listing 31.1 The contents of the HomeController.cs file in the Controllers folder
+// Listing 31.1 The contents of the HomeController.cs file in the Controllers folder
 
 namespace WebApp.Controllers
 {
