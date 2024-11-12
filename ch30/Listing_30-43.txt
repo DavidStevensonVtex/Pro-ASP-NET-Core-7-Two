@@ -1,4 +1,4 @@
-﻿// Listing 30.43 Setting filter order in the HomeController.cs file in the Controllers folder
+// Listing 30.43 Setting filter order in the HomeController.cs file in the Controllers folder
 
 namespace WebApp.Controllers
 {
