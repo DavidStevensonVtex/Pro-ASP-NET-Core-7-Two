@@ -1,4 +1,4 @@
-﻿// Listing 31.10 Adding an action the HomeController.cs file in the Controllers folder
+// Listing 31.10 Adding an action the HomeController.cs file in the Controllers folder
 
 namespace WebApp.Controllers
 {
