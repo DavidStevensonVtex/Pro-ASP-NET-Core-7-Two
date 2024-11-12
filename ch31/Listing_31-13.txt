@@ -1,4 +1,4 @@
-﻿// Listing 31.13 Adding a method in the ViewModelFactory.cs file in the Models folder
+// Listing 31.13 Adding a method in the ViewModelFactory.cs file in the Models folder
 
 namespace WebApp.Models
 {
