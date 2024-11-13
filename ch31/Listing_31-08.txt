@@ -3,6 +3,10 @@
 @model ProductViewModel
 @{  Layout = "_SimpleLayout" ;}
 
+<style>
+    input[readonly] { background-color: rgb(233, 236, 239) ; }
+</style>
+
 <partial name="_Validation" />
 
 <h5 class="bg-@Model.Theme text-white text-center p-2">
@@ -12,21 +16,21 @@
 <form ap-action="@Model?.Action" method="post">
     <div class="form-group">
         <label asp-for="Product.ProductId"></label>
-        <input class="form-control" asp-for="Product.ProductId" readonly disabled />
+        <input class="form-control" asp-for="Product.ProductId" readonly />
     </div>
     <div class="form-group">
         <label asp-for="Product.Name"></label>
         <div>
             <span asp-validation-for="Product.Name" class="text-danger"></span>
         </div>
-        <input class="form-control" asp-for="Product.Name" readonly="@Model?.ReadOnly" disabled="@Model?.ReadOnly" />
+        <input class="form-control" asp-for="Product.Name" readonly="@Model?.ReadOnly" />
     </div>
     <div class="form-group">
         <label asp-for="Product.Price"></label>
         <div>
             <span asp-validation-for="Product.Price" class="text-danger"></span>
         </div>
-        <input class="form-control" asp-for="Product.Price" readonly="@Model?.ReadOnly" disabled="@Model?.ReadOnly" />
+        <input class="form-control" asp-for="Product.Price" readonly="@Model?.ReadOnly" />
     </div>
     <div class="form-group">
         <label asp-for="Product.CategoryId"></label>
