@@ -1,4 +1,4 @@
-﻿@* Listing 31.33 Retrieving supplier data in the Edit.cshtml file in the Pages folder *@
+@* Listing 31.33 Retrieving supplier data in the Edit.cshtml file in the Pages folder *@
 
 @page "/pages/edit/{id}"
 @model EditModel
