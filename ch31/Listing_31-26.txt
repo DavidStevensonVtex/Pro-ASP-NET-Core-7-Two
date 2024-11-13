@@ -1,4 +1,4 @@
-﻿@* Listing 31.26 Adding Category Editor in the _ProductEditor.cshtml file in the Pages folder *@
+@* Listing 31.26 Adding Category Editor in the _ProductEditor.cshtml file in the Pages folder *@
 
 @model ProductViewModel
 
