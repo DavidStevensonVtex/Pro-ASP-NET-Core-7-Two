@@ -1,3 +1,5 @@
+Listing 32.11 Defining a connection string in the Advanced/appsettings.json file
+
 {
   "Logging": {
     "LogLevel": {
