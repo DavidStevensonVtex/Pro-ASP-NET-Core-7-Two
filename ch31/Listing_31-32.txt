@@ -1,4 +1,4 @@
-﻿@* Listing 31.32 Retrieving supplier data in the Create.cshtml file in the Pages folder *@
+@* Listing 31.32 Retrieving supplier data in the Create.cshtml file in the Pages folder *@
 
 @page "/pages/create"
 @model CreateModel
