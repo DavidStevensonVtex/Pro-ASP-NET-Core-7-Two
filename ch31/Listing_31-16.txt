@@ -1,4 +1,4 @@
-﻿// Listing 31.16 Adding the Delete action methods in the HomeController.cs file in the Controllers folder
+// Listing 31.16 Adding the Delete action methods in the HomeController.cs file in the Controllers folder
 
 namespace WebApp.Controllers
 {
@@ -90,7 +90,7 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Delete ([FromForm] Product product)
+        public async Task<IActionResult> Delete (Product product)
         {
             context.Products.Remove(product);
             await context.SaveChangesAsync();
