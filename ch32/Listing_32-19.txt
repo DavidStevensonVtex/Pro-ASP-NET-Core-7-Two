@@ -1,0 +1,5 @@
+@* Listing 32.19 The contents of the _ViewStart.cshtnl file in the Views folder *@
+
+@{
+    Layout = "_Layout";
+}
