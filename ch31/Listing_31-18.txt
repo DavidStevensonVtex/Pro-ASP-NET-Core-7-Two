@@ -45,7 +45,6 @@
             <option value="" disabled selected>Choose a Category</option>
         </select>
     </div>
-    <partial name="_CategoryEditor" for="Product" />
     <div class="form-group">
         <label asp-for="Product.SupplierId">
             Supplier
