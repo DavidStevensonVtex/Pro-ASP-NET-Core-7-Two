@@ -1,4 +1,4 @@
-Listing 32.11 Defining a connection string in the Advanced/appsettings.json file
+Listing 32.11 Defining a connection string in the Advanced/appsettings.json
 
 {
   "Logging": {
@@ -10,6 +10,6 @@ Listing 32.11 Defining a connection string in the Advanced/appsettings.json file
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "PeopleConnection": "Server=localhost\\SQL_2022;Database=People;MultipleActiveResultSets=true;Integrated,Integrated Security=True;TrustServerCertificate=true;\""
+    "PeopleConnection": "Server=localhost\\SQL_2022;Database=People;MultipleActiveResultSets=true;Integrated Security=True;TrustServerCertificate=true;"
   }
 }

@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<DataContext>(opts =>
 {
-    opts.UseSqlServer(builder.Configuration["ConnectionStrings:PeopleConnetion"]);
+    opts.UseSqlServer(builder.Configuration["ConnectionStrings:PeopleConnection"]);
     opts.EnableSensitiveDataLogging(true);
 });
 
