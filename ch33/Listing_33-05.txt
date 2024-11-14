@@ -1,4 +1,4 @@
-﻿@* Listing 33.5 Adding elements in the _Layout.cshtml file in the Pages folder *@
+@* Listing 33.5 Adding elements in the _Layout.cshtml file in the Pages folder *@
 
 <!DOCTYPE html>
 <html>
