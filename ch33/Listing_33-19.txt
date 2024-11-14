@@ -1,4 +1,4 @@
-﻿@* Listing 33.19 Specifying an event in the Bindings.razor file in the Blazor folder *@
+@* Listing 33.19 Specifying an event in the Bindings.razor file in the Blazor folder *@
 
 <div class="form-group">
     <label>City</label>
