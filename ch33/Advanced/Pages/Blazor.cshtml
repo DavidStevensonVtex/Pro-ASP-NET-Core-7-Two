@@ -1,0 +1,27 @@
+﻿@* Listing 33.9 The contents of the Blazor.cshtml file in the Pages folder *@
+
+@page "/pages/blazor"
+
+<script typeof="text/javascript">
+    // console.log("executing javascript");
+    window.addEventListener("DOMContentLoaded", () => {
+        // console.log("DOMContentLoaded");
+        document.getElementById("markElems").addEventListener("click", () => {
+            // console.log("markElems clicked");
+            document.querySelectorAll("td:first-child")
+                .forEach(elem => {
+                    // console.log("elem", elem);
+                    elem.innerText = `M:${elem.innerText}` ;
+                    elem.classList.add("border", "border-dark");
+                });
+        });
+    });
+</script>
+
+<h4 class="bg-primary text-white text-center p-2">Blazor People</h4>
+
+<button id="markElems" class="btn btn-outline-primary mb-2">
+    Mark Elements
+</button>
+
+<component type="typeof(Advanced.Blazor.PeopleList)" render-mode="Server" />
