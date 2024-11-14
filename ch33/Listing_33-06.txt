@@ -1,0 +1,9 @@
+@* Listing 33.6 The contents of the _Imports.razor file int the Advanced folder *@
+
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop 
+@using Microsoft.EntityFrameworkCore
+@using Advanced.Models
