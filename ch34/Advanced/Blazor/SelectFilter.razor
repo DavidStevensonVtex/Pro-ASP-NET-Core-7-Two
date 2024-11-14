@@ -1,0 +1,21 @@
+﻿@* Listing 34.3 The contents of the SelectFilter.razor file in the Blazor folder *@
+
+<div class="form-group">
+    <label for="select-@Title>@Title"></label>
+    <select name="selet-@Title class=form-control">
+        <option disabled selected value="">Select @Title</option>
+        @foreach (string val in Values)
+        {
+            <option value="@val" selected="@(val == SelectedValue)">
+                @val
+            </option>
+        }
+    </select>
+</div>
+
+
+@code {
+    public IEnumerable<string> Values { get; set; } = Enumerable.Empty<string>();
+    public string? SelectedValue { get; set; }
+    public string Title { get; set; } = "Placeholder";
+}
