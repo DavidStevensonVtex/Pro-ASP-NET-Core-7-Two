@@ -1,4 +1,4 @@
-﻿@* Listing 33.20 Using a DateTime property in the Bindings.razor file in the Blazor folder *@
+@* Listing 33.20 Using a DateTime property in the Bindings.razor file in the Blazor folder *@
 
 @using System.Globalization
 
