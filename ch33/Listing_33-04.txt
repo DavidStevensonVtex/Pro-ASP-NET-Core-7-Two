@@ -1,4 +1,4 @@
-﻿@* Listing 33.4 Adding elements in the _Layout.cshtml file in the Views/Shared folder *@
+@* Listing 33.4 Adding elements in the _Layout.cshtml file in the Views/Shared folder *@
 
 <!DOCTYPE html>
 <html>
