@@ -1,4 +1,4 @@
-﻿@* Listing 34.5 Configurable properties in the SelectFilter.razor file in the Blazor folder *@
+@* Listing 34.5 Configurable properties in the SelectFilter.razor file in the Blazor folder *@
 
 <div class="form-group">
     <label for="select-@Title>@Title"></label>
