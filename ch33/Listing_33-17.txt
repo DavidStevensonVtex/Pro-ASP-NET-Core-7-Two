@@ -1,4 +1,4 @@
-﻿@* Listing 33.17 Using a Razor Component the Blazor.cshtml file in the Pages folder *@
+@* Listing 33.17 Using a Razor Component the Blazor.cshtml file in the Pages folder *@
 
 @page "/pages/blazor"
 
