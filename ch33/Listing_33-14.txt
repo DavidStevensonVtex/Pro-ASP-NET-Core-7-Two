@@ -1,4 +1,4 @@
-﻿@* Listing 33.14 Handling events in the Events.razor file in the Blazor folder *@
+@* Listing 33.14 Handling events in the Events.razor file in the Blazor folder *@
 
 @for (int i = 0; i < ElementCount ; i++)
 {
