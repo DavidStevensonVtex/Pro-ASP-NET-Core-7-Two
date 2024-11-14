@@ -1,4 +1,4 @@
-﻿@* Listing 33.25 Applying a new component the Blazor.cshtml file in the Pages folder *@
+@* Listing 33.25 Applying a new component the Blazor.cshtml file in the Pages folder *@
 
 @page "/pages/blazor"
 
