@@ -1,4 +1,4 @@
-﻿@* Listing 34.26 A Cascading parameter in the DepartmentList.razor file in the Blazor folder *@
+@* Listing 34.26 A Cascading parameter in the DepartmentList.razor file in the Blazor folder *@
 
 <CascadingValue Name="BgTheme" Value="Theme" IsFixed="false">
     <TableTemplate RowType="Department" RowData="Departments"
