@@ -1,10 +1,10 @@
-﻿@* Listing 34.24 The contents of the Department.razor file in the Blazor folder *@
+﻿@* Listing 34.24 The contents of the DepartmentList.razor file in the Blazor folder *@
 
 <TableTemplate RowType="Department" RowData="Departments"
     Highlight="@(d => d.Name)"
     SortDirection="@(d => d.Name)">
     <Header>
-        <tr><th>Name</th><th>People</th><th>Locations</th></tr>
+        <tr><th>ID</th><th>Name</th><th>People</th><th>Locations</th></tr>
     </Header>
     <RowTemplate Context="d">
         <td>@d.Departmentid</td>
@@ -23,6 +23,5 @@
     public IEnumerable<Department>? Departments =>
         Context?.Departments?
             .Include(d => d.People!)
-            .ThenInclude(p => p.Location)
-            .AsEnumerable();
+            .ThenInclude(p => p.Location);
 }
