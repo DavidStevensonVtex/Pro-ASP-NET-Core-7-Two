@@ -1,4 +1,4 @@
-﻿@* Listing 34.31 Add an error element in the Blazor.cshtml file in the Pages folder *@
+@* Listing 34.31 Add an error element in the Blazor.cshtml file in the Pages folder *@
 
 @page "/pages/blazor"
 
