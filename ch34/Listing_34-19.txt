@@ -1,4 +1,4 @@
-﻿@* Listing 34.19 Adding a type parameter TableTemplate.razor file in the Blazor folder *@
+@* Listing 34.19 Adding a type parameter TableTemplate.razor file in the Blazor folder *@
 
 @typeparam RowType
 
