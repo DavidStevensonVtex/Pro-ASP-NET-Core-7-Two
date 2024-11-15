@@ -1,4 +1,4 @@
-﻿@* Listing 34.25 Changing the component the Blazor.cshtml file in the Pages folder *@
+@* Listing 34.25 Changing the component the Blazor.cshtml file in the Pages folder *@
 
 @page "/pages/blazor"
 
