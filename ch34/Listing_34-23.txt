@@ -1,4 +1,4 @@
-﻿@* Listing 34.23 Configuring component features in the PeopleList.razor file in the Blazor folder *@
+@* Listing 34.23 Configuring component features in the PeopleList.razor file in the Blazor folder *@
 
 <TableTemplate RowType="Person" RowData="People" Highlight="@(p => p.Location?.City)"
         SortDirection="@(p => p.Surname)">
