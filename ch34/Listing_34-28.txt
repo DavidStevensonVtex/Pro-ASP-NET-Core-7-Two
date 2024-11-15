@@ -1,4 +1,4 @@
-﻿@* Listing 34.28 A connection error element in the Blazor.cshtml file in the Pages folder *@
+@* Listing 34.28 A connection error element in the Blazor.cshtml file in the Pages folder *@
 
 @page "/pages/blazor"
 
