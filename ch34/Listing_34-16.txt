@@ -1,4 +1,4 @@
-﻿@* Listing 34.16 Defining child content in the PeopleList.razor file in the Blazor folder *@
+@* Listing 34.16 Defining child content in the PeopleList.razor file in the Blazor folder *@
 
 <table class="table table-sm table-bordered table-striped">
     <thead>
