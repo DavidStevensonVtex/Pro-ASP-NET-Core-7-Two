@@ -1,4 +1,4 @@
-﻿@* Listing 34.32 An error boundary in the TableTemplate.razor file in the Blazor folder *@
+@* Listing 34.32 An error boundary in the TableTemplate.razor file in the Blazor folder *@
 
 @typeparam RowType
 
