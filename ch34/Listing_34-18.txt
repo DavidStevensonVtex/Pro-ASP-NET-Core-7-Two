@@ -1,4 +1,4 @@
-﻿@* Listing 34.18 Applying a template component in the PeopleList.razor file in the Blazor folder *@
+@* Listing 34.18 Applying a template component in the PeopleList.razor file in the Blazor folder *@
 
 <TableTemplate>
     <Header>
