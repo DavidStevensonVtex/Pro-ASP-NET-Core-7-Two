@@ -1,4 +1,4 @@
-﻿@* Listing 34.20 Using a generic template in the PeopleList.razor file in the Blazor folder *@
+@* Listing 34.20 Using a generic template in the PeopleList.razor file in the Blazor folder *@
 
 <TableTemplate RowType="Person" RowData="People">
     <Header>
