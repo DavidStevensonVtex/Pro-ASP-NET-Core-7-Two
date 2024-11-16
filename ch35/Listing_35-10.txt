@@ -1,4 +1,4 @@
-﻿@* Listing 35.10 Navigating in the DepartmentList.razor file in the Blazor folder *@
+@* Listing 35.10 Navigating in the DepartmentList.razor file in the Blazor folder *@
 
 @page "/departments"
 @page "/depts"
