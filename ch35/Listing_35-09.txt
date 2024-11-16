@@ -1,4 +1,4 @@
-﻿@* Listing 35.9 Adding navigation in the PeopleList.razor file in the Blazor folder *@
+@* Listing 35.9 Adding navigation in the PeopleList.razor file in the Blazor folder *@
 
 @page "/people"
 @page "/"
