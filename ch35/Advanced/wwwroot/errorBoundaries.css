@@ -1,0 +1,16 @@
+﻿/* Listing 34.33 The contents of the errorBoundaries.css file in the wwwroot folder */
+
+.blazor-error-boundary {
+    background-color: darkred;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.blazor-error-boundary::after {
+    content: "Error: Sales selected"
+}
