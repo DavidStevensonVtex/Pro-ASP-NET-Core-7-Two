@@ -1,4 +1,4 @@
-﻿@* Listing 35.8 Defining a default route in the PeopleList.razor file in the Blazor folder *@
+@* Listing 35.8 Defining a default route in the PeopleList.razor file in the Blazor folder *@
 
 @page "/people"
 @page "/"
