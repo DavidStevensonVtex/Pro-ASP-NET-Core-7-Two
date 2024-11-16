@@ -1,0 +1,23 @@
+@* Listing 35.4 The contents of the _Host.cshtml file in the Pages folder *@
+
+@page "/"
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@ViewBag.Title</title>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+              integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+              crossorigin="anonymous"
+              referrerpolicy="no-referrer" />
+        <base href="~/" />
+    </head>
+    <body>
+        <div class="m-2">
+            <component type="typeof(Advanced.Blazor.Routed)" render-mode="Server" />
+        </div>
+        <script src="_framework/blazor.server.js"></script>
+    </body>
+</html>
