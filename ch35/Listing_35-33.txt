@@ -1,4 +1,4 @@
-﻿// Listing 35.33 Applying an attribute in the ToggleService.cs file inthe Services folder
+// Listing 35.33 Applying an attribute in the ToggleService.cs file inthe Services folder
 
 using Advanced.Blazor;
 using Microsoft.JSInterop;
