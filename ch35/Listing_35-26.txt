@@ -1,4 +1,4 @@
-﻿@* Listing 35.26 Adding an element in the _Host.cshtml file in the Pages folder *@
+@* Listing 35.26 Adding an element in the _Host.cshtml file in the Pages folder *@
 
 @page "/"
 @{ Layout = null; }
