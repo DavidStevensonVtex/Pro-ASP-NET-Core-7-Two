@@ -1,4 +1,4 @@
-﻿@* Listing 35.30 Introducing static members in the MultiNavLink.razor file in the Blazor folder *@
+@* Listing 35.30 Introducing static members in the MultiNavLink.razor file in the Blazor folder *@
 
 <a class="@ComputedClass" @onclick="HandleClick"  href="">
     @if (Enabled)
