@@ -1,4 +1,4 @@
-﻿// Listing 35.28 Defining an element parameter the interop.js file in the wwwroot folder
+// Listing 35.28 Defining an element parameter the interop.js file in the wwwroot folder
 
 function addTableRows(colCount, elem) {
     //let elem = document.querySelector("tbody");
