@@ -1,4 +1,4 @@
-﻿@* Listing 35.19 Retaining references in the NavLayout.razor file in the Blazor folder *@
+@* Listing 35.19 Retaining references in the NavLayout.razor file in the Blazor folder *@
 
 @inherits LayoutComponentBase
 
