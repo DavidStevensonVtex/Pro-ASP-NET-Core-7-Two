@@ -1,4 +1,4 @@
-﻿// Listing 35.24 Adding an action in the HomeController.cs file in the Controllers folder
+// Listing 35.24 Adding an action in the HomeController.cs file in the Controllers folder
 
 using Advanced.Models;
 using Advanced.Services;
