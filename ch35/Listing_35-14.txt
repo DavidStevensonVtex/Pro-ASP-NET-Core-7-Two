@@ -1,4 +1,4 @@
-﻿@* Listing 35.14 Applying a layout of the Routed.razor file in the Blazor folder *@
+@* Listing 35.14 Applying a layout of the Routed.razor file in the Blazor folder *@
 
 <Router AppAssembly="typeof(Program).Assembly">
     <Found>
