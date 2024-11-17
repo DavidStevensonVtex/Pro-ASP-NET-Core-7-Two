@@ -1,4 +1,4 @@
-﻿@* Listing 35.32 Invoking a JavaScript function in the NavLayout.razor file in the Blazor folder *@
+@* Listing 35.32 Invoking a JavaScript function in the NavLayout.razor file in the Blazor folder *@
 
 @inherits LayoutComponentBase
 @using Advanced.Services
