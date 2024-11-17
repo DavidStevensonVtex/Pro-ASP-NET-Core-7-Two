@@ -1,4 +1,4 @@
-﻿@* Listing 35.29 Retaining a reference in the PersonDisplay.razor file in the Blazor folder *@
+@* Listing 35.29 Retaining a reference in the PersonDisplay.razor file in the Blazor folder *@
 
 @page "/person"
 @page "/person/{id:long}"
