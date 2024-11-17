@@ -16,5 +16,5 @@ function createToggleButton(toggleServiceRef) {
     button.classList.add("btn", "btn-secondary", "btn-block");
     button.innerText = "JS Toggle";
     sibling.parentNode.insertBefore(button, sibling.nextSibling);
-    button.onclick = () => toggleServiceRef.invokeMethodAsync("ToggleComponents");
+    button.onclick = () => DotNet.invokeMethodAsync("Advanced", "ToggleEnabled");
 }
