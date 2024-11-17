@@ -1,4 +1,4 @@
-﻿@* Listing 35.20 Replacing a method in the MultiNavLink.razor file in the Blazor folder *@
+@* Listing 35.20 Replacing a method in the MultiNavLink.razor file in the Blazor folder *@
 
 <a class="@ComputedClass" @onclick="HandleClick"  href="">
     @if (Enabled)
