@@ -1,4 +1,4 @@
-﻿@* Listing 35.27 Invoking a JavaScript function of the PersonDisplay.razor file in the Blazor folder *@
+@* Listing 35.27 Invoking a JavaScript function of the PersonDisplay.razor file in the Blazor folder *@
 
 @page "/person"
 @page "/person/{id:long}"
