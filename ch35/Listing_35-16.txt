@@ -1,4 +1,4 @@
-﻿@* Listing 35.16 Applying a new component in the NavLayout.razor file in the Blazor folder *@
+@* Listing 35.16 Applying a new component in the NavLayout.razor file in the Blazor folder *@
 
 @inherits LayoutComponentBase
 
