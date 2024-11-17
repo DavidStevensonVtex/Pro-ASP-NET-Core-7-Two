@@ -1,4 +1,4 @@
-﻿@* Listing 35.34 Providing an instance in the NavLayout.razor file in the Blazor folder *@
+@* Listing 35.34 Providing an instance in the NavLayout.razor file in the Blazor folder *@
 
 @inherits LayoutComponentBase
 @using Advanced.Services
