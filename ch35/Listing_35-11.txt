@@ -1,5 +1,8 @@
 @* Listing 35.11 The contents of the PersonDisplay.razor file in the Blazor folder *@
 
+@page "/person"
+@page "/person/{id:long}"
+
 <h5>Editor for Person: @Id</h5>
 
 <NavLink class="btn btn-primary" href="/people">Return</NavLink>
