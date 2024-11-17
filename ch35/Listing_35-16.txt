@@ -8,11 +8,11 @@
             <div class="d-grid gap-2">
                 @foreach (string key in NavLinks.Keys)
                 {
-                    <NavLink class="btn btn-outline-primary"
-                            href="@NavLinks[key][0]"
+                    <MultiNavLink class="btn btn-outline-primary"
+                            href="@NavLinks[key]"
                             ActiveClass="btn-primary text-white">
                         @key
-                    </NavLink>
+                    </MultiNavLink>
                 }
             </div>
         </div>
