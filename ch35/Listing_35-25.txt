@@ -3,7 +3,7 @@
 function addTableRows(colCount) {
     let elem = document.querySelector("tbody");
     let row = document.createElement("tr");
-    elem.parentNode.insertBefore(row, elem);
+    elem.append(row, elem);
     for (let i = 0; i < colCount; i++) {
         let cell = document.createElement("td");
         cell.innerText = "New Elements"
