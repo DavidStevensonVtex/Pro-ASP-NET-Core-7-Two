@@ -1,4 +1,4 @@
-﻿// Listing 36.12 Applying validation attributes in the Person.cs file in the Models folder
+// Listing 36.12 Applying validation attributes in the Person.cs file in the Models folder
 
 using System.ComponentModel.DataAnnotations;
 
