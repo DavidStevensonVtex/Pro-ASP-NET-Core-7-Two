@@ -91,5 +91,5 @@
 
     public string FormSubmitMessage { get; set; } = "Form Data Not Submitted";
     public void HandleValidSubmit() => FormSubmitMessage = "Valid Data Submitted";
-    public void HandleInvalidSubmit() => FormSubmitMessage = "Invalid DAta Submitted";
+    public void HandleInvalidSubmit() => FormSubmitMessage = "Invalid Data Submitted";
 }
