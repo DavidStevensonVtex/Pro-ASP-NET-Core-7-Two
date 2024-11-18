@@ -1,4 +1,4 @@
-﻿@* Listing 36.24 Applying validation in the Editor.razor file in the Blazor/Forms folders *@
+@* Listing 36.24 Applying validation in the Editor.razor file in the Blazor/Forms folders *@
 
 @page "/forms/edit/{id:long}"
 @page "/forms/create"
