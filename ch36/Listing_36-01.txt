@@ -1,0 +1,7 @@
+@* Listing 36.1 The contents of the EmptyLayout.razor file in the Blaor/Forms folder *@
+
+@inherits LayoutComponentBase
+
+<div class="m-2">
+    @Body
+</div>
