@@ -16,21 +16,21 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th>ID</th><td>@PersonData?.PersonId</td>
+                        <th>ID</th><td>@Person?.PersonId</td>
                     </tr>
                     <tr>
-                        <th>Firstname</th><td>@PersonData?.Firstname</td>
+                        <th>Firstname</th><td>@Person?.Firstname</td>
                     </tr>
                     <tr>
-                        <th>Surname</th><td>@PersonData?.Surname</td>
+                        <th>Surname</th><td>@Person?.Surname</td>
                     </tr>
                     <tr>
                         <th>Dept ID</th>
-                        <td>@PersonData?.DepartmentId</td>
+                        <td>@Person?.DepartmentId</td>
                     </tr>
                     <tr>
                         <th>Location ID</th>
-                        <td>@PersonData?.LocationId</td>
+                        <td>@Person?.LocationId</td>
                     </tr>
                 </tbody>
             </table>            
@@ -44,5 +44,5 @@
     public RenderFragment? ChildContent { get; set; }
 
     [Parameter]
-    public Person PersonData { get; set; } = new();
+    public Person Person { get; set; } = new();
 }
