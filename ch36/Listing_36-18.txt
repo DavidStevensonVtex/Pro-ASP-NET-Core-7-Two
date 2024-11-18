@@ -1,4 +1,4 @@
-﻿@* Listing 36.18 Controlling queries the List.razor file inthe Blazor/Forms folder *@
+@* Listing 36.18 Controlling queries the List.razor file inthe Blazor/Forms folder *@
 
 @page "/forms"
 @page "/forms/list"
