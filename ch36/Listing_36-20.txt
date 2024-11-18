@@ -1,4 +1,4 @@
-﻿@* Listing 36.20 Preparing the component to the List.razor file inthe Blazor/Forms folder *@
+@* Listing 36.20 Preparing the component to the List.razor file inthe Blazor/Forms folder *@
 
 @page "/forms"
 @page "/forms/list"
