@@ -49,6 +49,9 @@
             </CustomSelect>
         </div>
         <div class="text-center">
+            <button type="submit" class="btn btn-primary mt-2">
+                Submit
+            </button>
             <NavLink class="btn btn-secondary mt-2" href="/forms">
                 Back
             </NavLink>
