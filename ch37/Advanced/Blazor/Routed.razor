@@ -1,0 +1,12 @@
+﻿@* Listing 35.14 Applying a layout of the Routed.razor file in the Blazor folder *@
+
+<Router AppAssembly="typeof(Program).Assembly">
+    <Found>
+        <RouteView RouteData="@context" DefaultLayout="typeof(NavLayout)"/>
+    </Found>
+    <NotFound>
+        <h4 class="bg-danger text-white text-center p-2">
+            No Matching Route Found
+        </h4>
+    </NotFound>
+</Router>
