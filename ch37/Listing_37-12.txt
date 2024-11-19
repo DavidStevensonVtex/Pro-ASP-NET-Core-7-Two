@@ -1,4 +1,4 @@
-﻿@* Listing 37.12 Adding a namespace in the _Imports.razor file in the BlazorWebAssembly project *@
+@* Listing 37.12 Adding a namespace in the _Imports.razor file in the BlazorWebAssembly project *@
 
 @using System.Net.Http
 @using System.Net.Http.Json
