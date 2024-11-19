@@ -1,4 +1,4 @@
-﻿@* Listing 37.15 Applying the layout in the App.razor file in the BlazorWebAssembly project *@
+@* Listing 37.15 Applying the layout in the App.razor file in the BlazorWebAssembly project *@
 
 <Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
