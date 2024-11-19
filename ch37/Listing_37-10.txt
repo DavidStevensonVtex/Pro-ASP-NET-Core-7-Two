@@ -1,3 +1,5 @@
+Listing 37.10 Adding an element in the BlazorWebAssembly.csproj file in the BlazorWebAssembly folder
+
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
