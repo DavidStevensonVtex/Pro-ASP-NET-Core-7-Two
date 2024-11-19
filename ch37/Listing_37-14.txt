@@ -1,0 +1,7 @@
+@* Listing 37.14 The EmptyLayout.razor file in the Shared folder of the BlazorWebAssembly project *@
+
+@inherits LayoutComponentBase
+
+<div class="m-2">
+    @Body
+</div>
