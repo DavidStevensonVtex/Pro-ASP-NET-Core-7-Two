@@ -1,4 +1,4 @@
-﻿@* Listing 38.16 Deleting users in the List.cshtml file in the Pages/Users folder in the Advanced project *@
+@* Listing 38.16 Deleting users in the List.cshtml file in the Pages/Users folder in the Advanced project *@
 
 @page
 @model ListModel
