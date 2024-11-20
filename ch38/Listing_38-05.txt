@@ -1,3 +1,5 @@
+Listing 38.5 Adding a connection in the appsettings.json file in the Adanced project
+
 {
   "Logging": {
     "LogLevel": {
