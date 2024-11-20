@@ -1,4 +1,4 @@
-﻿@* Listing 38.8 Adding expressions in the _ViewImports.cshtml file in the Pages folder *@
+@* Listing 38.8 Adding expressions in the _ViewImports.cshtml file in the Pages folder *@
 
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @using Advanced.Models
