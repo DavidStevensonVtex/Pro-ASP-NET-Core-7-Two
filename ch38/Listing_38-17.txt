@@ -1,0 +1,21 @@
+@* Listing 38.17 The _Layout.cshtml file in the Pages/Roles folder in the Advanced project *@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Identity</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+          integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="m-2">
+        <h5 class="bg-secondary text-white text-center p-2">
+            Role Administration
+        </h5>
+        @RenderBody()
+    </div>
+</body>
+</html>
