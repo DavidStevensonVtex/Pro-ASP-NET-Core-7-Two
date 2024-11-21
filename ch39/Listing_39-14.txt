@@ -1,4 +1,4 @@
-﻿@* Listing 39.14 Applying an authorization attribute in the _Host.cshtml file in the Pages folder *@
+@* Listing 39.14 Applying an authorization attribute in the _Host.cshtml file in the Pages folder *@
 
 @page "/"
 @model HostModel
