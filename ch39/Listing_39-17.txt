@@ -1,4 +1,4 @@
-﻿@* Listing 39.17 Selective content in the DepartmentList.razor file in the Blazor folder *@
+@* Listing 39.17 Selective content in the DepartmentList.razor file in the Blazor folder *@
 
 @page "/departments"
 @page "/depts"
