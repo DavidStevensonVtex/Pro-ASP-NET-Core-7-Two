@@ -1,4 +1,4 @@
-@* Listing 39.5 The Details.cshtml file int he Pages/Account folder of the Advanced folder *@
+@* Listing 39.5 The Details.cshtml file in the Pages/Account folder of the Advanced folder *@
 
 @page
 @model DetailsModel
