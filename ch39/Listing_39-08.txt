@@ -1,4 +1,4 @@
-﻿@* Listing 39.8 User deails in the Details.cshtml file in the Pages/Account folder of the Advanced folder *@
+@* Listing 39.8 User deails in the Details.cshtml file in the Pages/Account folder of the Advanced folder *@
 
 @page
 @model DetailsModel
