@@ -1,4 +1,4 @@
-﻿@* Listing 39.15 Adding a component in the Routed.razor file in the Blazor folder *@
+@* Listing 39.15 Adding a component in the Routed.razor file in the Blazor folder *@
 
 @using Microsoft.AspNetCore.Components.Authorization
 
